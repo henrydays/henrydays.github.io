@@ -1,0 +1,179 @@
+<html>
+
+<head>
+
+    <title>Home Page</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body>
+    
+   
+<div class="boxed-layout">
+<div class="nav-bar">
+    <div class="logo">Computing Conference 2018</div>
+
+    <ul class="menu">
+
+<li><a href="conference.html"><i class="fa fa-users" aria-hidden="true"></i> Conference</a></li>
+<li><a href="schedule.html"><i class="fa fa-book" aria-hidden="true"></i> Schedule</a></li>
+<li><a href="articles.html"><i class="fa fa-th" aria-hidden="true"></i> Articles</a></li>
+<li><a href="signup.html"><i class="fa fa-book" aria-hidden="true"></i> Sign Up</a></li>
+<li><a href="signin.html"><i class="fa fa-user-circle" aria-hidden="true"> </i> Sign In </a></i>
+</li>
+</ul>
+
+</div>
+
+<div class="wrapper">
+<div class="getTicketsTop"><h3>10-12 July 2018 London, United Kingdom  <a href="#">Tickets!</a></h3></div> </div>
+    <div class="slideshow">
+   
+        <div class="w3-content w3-display-container">
+  
+            <div class="slide">
+              <img class="slide-img" src="styles/imgs/home2.png" style="width:100%">
+              <div class="subtitle">
+                Unique and Expert Speakers 
+              </div>
+            </div>
+            
+            <div class="slide">
+              <img class="slide-img" src="styles/imgs/home1.jpg" style="width:100%">
+              <div class="subtitle">
+                Focussed Networking
+              </div>
+            </div>
+            
+            <div class="slide">
+              <img src="styles/imgs/home1.jpg" style="width:100%">
+              <div class="subtitle">
+                Brilliant Ideas
+              </div>
+            </div>
+            
+            
+            
+            <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="button-right" onclick="plusDivs(1)">&#10095;</button>
+            
+            </div>
+    </div>
+
+    <div class="aboutUs">
+            <h1>About Us</h1>
+          
+            <div class="content-about-us">
+            <div class="smalltext"> 
+                <p>
+                    Computing Conference (formerly called Science and Information (SAI) Conference) is a research conference held in London, UK since 2013. The conference series has featured keynote talks, special sessions, poster presentation, tutorials, workshops, and contributed papers each year.
+                </p>
+            </div>   
+            <div class="video-about"><img src="styles/imgs/video-play.png"></img></div>
+        </div>       
+    </div>
+    
+    <div class="content">
+
+        <div class="tabs-content">
+            <div class="event">
+                
+                <div class="icon-container"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                <div class="event-title">Brilliant Ideas
+                    </div>
+                <div class="event-description">High-impact, collaborative and new approaches to some of the world’s toughest problems.</div>
+
+            </div>
+            <div class="event">
+                    
+                    <div class="icon-container"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+                    <div class="event-title">Focussed Networking</div>
+                    <div class="event-description">Provides a free and open atmosphere where attendees talk and engage in creative ways</div>
+    
+                </div>
+                <div class="event">
+                        
+                        <div class="icon-container"><i class="fa fa-microphone" aria-hidden="true"></i></div>
+                        <div class="event-title">Unique and Expert Speakers</div>
+                        <div class="event-description">Our speakers represent the cream of computer science research and development practitioners worldwide.</div>
+        
+                    </div>
+            <div class="event">
+                    
+                    <div class="icon-container"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+                    <div class="event-title">International Audience</div>
+                    <div class="event-description">Previous conferences witnessed attendees from 55+ countries.</div>
+    
+                </div>
+             
+                    
+        </div>
+        <div class="iphone">
+            <img src="styles/imgs/iphone.png" alt="">
+        </div>
+
+    </div>
+   
+    <div class="horizontal-fullwidth">
+   <div class="textbox">
+       Do you want to get a seat?         
+    </div> 
+ 
+    <div class="button-horizontal"></div> <button id="buttonPrimary">Book Tickets!</button>  
+  
+</div>
+<div class="contentSponsors">
+    <div class="sponsor"><img src="styles/imgs/sponsors/BCS.png" alt=""></div>
+    <div class="sponsor"><img src="styles/imgs/sponsors/CW.png" alt=""></div>
+    <div class="sponsor"><img src="styles/imgs/sponsors/DEEP-ER.png" alt=""></div>
+    <div class="sponsor"><img src="styles/imgs/sponsors/Deutsche_Telekom.png" alt=""></div>
+    <div class="sponsor"><img src="styles/imgs/sponsors/ieee.png" alt=""></div>
+    <div class="sponsor"><img src="styles/imgs/sponsors/iet_logo.png" alt=""></div>
+    <div class="sponsor"><img src="styles/imgs/sponsors/microsoft.png" alt=""></div>
+    <div class="sponsor"><img src="styles/imgs/sponsors/usenix.png" alt=""></div>
+
+
+
+</div>
+
+<div class="footer">
+    a
+</div>
+</div>
+
+
+
+</div>
+
+ 
+</body>
+
+</html>
+
+<script>
+    var slideIndex = 1;
+   
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+      
+    }
+    
+    function showDivs(n) {
+      var i;
+      var slides = document.getElementsByClassName("slide");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slides[slideIndex-1].style.display = "block";  
+    }
+
+   
+    </script>
