@@ -49,7 +49,7 @@
 .nav-bar
 {
     
-    position: fixed;
+    position: absolute;
     top: 50px;
   
     color:white;
