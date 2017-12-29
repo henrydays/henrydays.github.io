@@ -487,6 +487,17 @@ font-size: 20px;
 color: #e39529;
 
 }
+.footer .sitemap a
+{
+
+    text-decoration: none;
+    color: white;
+}
+.footer .sitemap a:hover
+{
+    color: #e3952a;
+
+}
 .footer .social
 {
 width: 20%;
