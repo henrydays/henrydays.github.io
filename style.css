@@ -439,9 +439,50 @@ align-content: center;
 
 .footer
 {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+
 background-color: #50484b;
 height: 300px;
 
+}
+.footer .about
+{
+    padding: 10px;
+    width: 40%;
+min-width: 300px;
+}
+.footer .about .logo
+{
+    color:#e3952a;
+    font-size:24px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.footer .about .text-about
+{
+    padding: 10px;
+    letter-spacing: 1px;
+    text-indent: 20px;
+    font-size: 13px;
+    line-height: 150%;
+
+}
+.footer .about .rights
+{
+    
+padding-left: 30px;
+}
+.footer .sitemap
+{
+width: 30%;
+min-width: 300px;
+}
+.footer .social
+{
+width: 30%;
+min-width: 300px;
 }
 .video-about
 {
@@ -458,7 +499,7 @@ display: inline;
 }
 .iphone
 {
-    width: 35%;
+    width: 30%;
 
     margin-top: 50px;
 
@@ -477,6 +518,7 @@ margin: 0 auto;
 background-color: white;
 box-shadow: 0 0 10px #50484b;
 box-shadow: 0 0 10px #50484b;
+
 }
 body
 {
