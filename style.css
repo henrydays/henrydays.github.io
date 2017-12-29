@@ -444,7 +444,7 @@ align-content: center;
     flex-wrap: wrap;
 
 background-color: #50484b;
-height: 300px;
+
 
 }
 .footer .about
@@ -476,13 +476,43 @@ padding-left: 30px;
 }
 .footer .sitemap
 {
-width: 30%;
-min-width: 300px;
+    padding: 40px;
+  
+width: 15%;
+
+}
+.footer .sitemap .title
+{
+font-size: 20px;
+color: #e39529;
+
 }
 .footer .social
 {
-width: 30%;
-min-width: 300px;
+width: 25%;
+padding: 40px;
+}
+.footer .social .social-icon 
+{
+color:white;
+padding: 12px;
+font-size: 48px;
+}
+.footer .social .social-icon:hover
+{
+    color: #e39529;
+}
+.footer .social .title
+{
+    font-size: 20px;
+color: #e39529;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.footer .follow-us
+{
+    padding-top: 20px;
+    text-align: center;
 }
 .video-about
 {
