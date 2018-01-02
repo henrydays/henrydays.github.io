@@ -531,6 +531,11 @@ color: #e39529;
     padding-top: 20px;
     text-align: center;
 }
+.map
+{
+    -webkit-filter: grayscale(100%);
+filter: grayscale(80%);
+}
 .video-about 
 {
     width: 38%;
