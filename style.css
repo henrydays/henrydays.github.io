@@ -489,15 +489,23 @@ width: 20%;
 }
 .footer .sitemap .title
 {
+    font-family:GothamBold;
+    text-align: center;
 font-size: 20px;
 color: #e39529;
 
 }
 .footer .sitemap a
 {
-
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+}
+.footer .sitemap li
+{  
+    padding-bottom: 5px;
+    list-style-type: none;
+    text-decoration: none;
+
 }
 .footer .sitemap a:hover
 {
@@ -520,7 +528,7 @@ font-size: 46px;
     color: #e39529;
 }
 .footer .social .title
-{
+{font-family:GothamBold;
     text-align: center;
     font-size: 20px;
 color: #e39529;
