@@ -454,7 +454,8 @@ background-color: #50484b;
 }
 .footer .about
 {
-    padding: 10px;
+    padding-top:75px;
+    padding-left: 20px;
     width: 40%;
 min-width: 300px;
 }
