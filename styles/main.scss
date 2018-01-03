@@ -122,6 +122,28 @@ font-family: GothamBold;
     {
         ul 
         {
+            li
+            {
+                a,a:visited
+                {
+                    display: block;
+                    padding: 0 20px;
+                    line-height: 70px;
+                    background: #edeced;
+                    color: black;
+                    text-decoration: none;  
+
+                    &:hover
+                    {
+                        background: #2581DC;
+                        color: #ffffff;
+                    }
+                }
+
+                float: left;
+                position: relative;
+            }
+
             list-style: none;
             margin: 0;
             padding: 0;
@@ -137,24 +159,9 @@ font-family: GothamBold;
 
 
 
-nav ul li {
-  float: left;
-  position: relative;
-}
-nav ul li a,
-nav ul li a:visited {
-  display: block;
-  padding: 0 20px;
-  line-height: 70px;
-  background: #edeced;
-  color: black;
-  text-decoration: none;
-}
-nav ul li a:hover,
-nav ul li a:visited:hover {
-  background: #2581DC;
-  color: #ffffff;
-}
+
+
+
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
   padding-left: 4px;
