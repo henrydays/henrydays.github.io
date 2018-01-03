@@ -561,7 +561,7 @@ color: #e39529;
 .map
 {
     -webkit-filter: grayscale(100%);
-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 .video-about 
 {
@@ -605,10 +605,5 @@ body
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #edeced;
-
-}
-.event-title
-{
-
 
 }
