@@ -14,7 +14,16 @@ html, body {
 body {
   font-weight: bold;
   font-family: NewFontThin;
-  background-color: white; }
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #edeced; }
+
+.boxed-layout {
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 10px #50484b;
+  box-shadow: 0 0 10px #50484b; }
 
 .getTicketsTop {
   width: 100%;
@@ -133,9 +142,12 @@ body {
     padding: 40px 0 0px 90px; }
 
 .content {
-  width: 30%;
-  margin-top: 50px;
-  height: 400px; }
+  display: flex;
+  min-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 7.5px;
+  margin-bottom: 50px; }
   .content .tabs-content {
     width: 60%;
     padding-left: 12px;
@@ -163,12 +175,9 @@ body {
     font-size: 15px;
     color: #616161; }
   .content .iphone {
-    display: flex;
-    min-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 7.5px;
-    margin-bottom: 50px; }
+    width: 30%;
+    margin-top: 50px;
+    height: 400px; }
     .content .iphone img {
       margin: 0 25%;
       width: 50%; }
@@ -287,23 +296,10 @@ body {
 
 .video-about {
   width: 38%; }
-
-.video-about iframe {
-  padding: 20px;
-  padding-right: 90px;
-  width: 85%;
-  height: 200px; }
-
-.boxed-layout {
-  width: 90%;
-  margin: 0 auto;
-  background-color: white;
-  box-shadow: 0 0 10px #50484b;
-  box-shadow: 0 0 10px #50484b; }
-
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #edeced; }
+  .video-about iframe {
+    padding: 20px;
+    padding-right: 90px;
+    width: 85%;
+    height: 200px; }
 
 /*# sourceMappingURL=main.css.map */

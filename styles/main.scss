@@ -4,11 +4,13 @@
     src: url('fonts/Gotham-Thin.otf');
 
 }
+
 @font-face {
     font-family: 'GothamBold';
     src: url('fonts/GOTHAM-BOLD.ttf');
 
 }
+
 @font-face
 {
     font-family: 'GothamMedium';
@@ -23,11 +25,25 @@ html, body {
     padding: 0;
        
 }
+
 body
 {  
     font-weight: bold;
     font-family: NewFontThin;
-    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #edeced;
+}
+
+.boxed-layout
+{
+
+width: 90%;
+margin: 0 auto;
+background-color: white;
+box-shadow: 0 0 10px #50484b;
+box-shadow: 0 0 10px #50484b;
+
 }
 
 .getTicketsTop
@@ -77,7 +93,6 @@ font-family: GothamBold;
     float: right;
   
 }
-
  
 .nav-bar 
 {   
@@ -109,9 +124,9 @@ font-family: GothamBold;
     width: 90%;
     letter-spacing: 2px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);  
-
-    
+  
 }
+
 .slideshow
 {
     .subtitle
@@ -173,7 +188,6 @@ font-family: GothamBold;
     
 }
 
-
 .aboutUs
 {
    
@@ -213,8 +227,6 @@ font-family: GothamBold;
     align-items: center;
 
 }
-
-
 
 .content
 {
@@ -263,24 +275,21 @@ font-family: GothamBold;
             margin: 0 25%;
             width: 50%;
         }
-        
-       display: flex;
-        min-width: 300px;
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 7.5px;
-        margin-bottom: 50px;  
 
-    }
-    
-
-       width: 30%;
+        width: 30%;
         margin-top: 50px;
         height: 400px;
+    }
+ 
+    display: flex;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 7.5px;
+    margin-bottom: 50px;    
   
 
 }
-
 
 .horizontal-fullwidth
 {
@@ -355,7 +364,6 @@ font-family: GothamBold;
    }
 
 }
-
 
 .footer
 {
@@ -456,10 +464,7 @@ font-family: GothamBold;
     display: flex;
     flex-wrap: wrap;
     background-color: #50484b;
-
-
 }
-
 
 .map
 {
@@ -468,33 +473,14 @@ font-family: GothamBold;
 }
 .video-about 
 {
+    iframe
+    {
+        padding: 20px;
+        padding-right: 90px;
+        width: 85%;
+        height: 200px;
+    }
+
     width: 38%;
   
-}
-.video-about iframe
-{
-    padding: 20px;
-    padding-right: 90px;
-    width: 85%;
-height: 200px;
-
-
-}
-
-.boxed-layout
-{
-
-width: 90%;
-margin: 0 auto;
-background-color: white;
-box-shadow: 0 0 10px #50484b;
-box-shadow: 0 0 10px #50484b;
-
-}
-body
-{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #edeced;
-
 }
