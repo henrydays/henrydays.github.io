@@ -155,20 +155,42 @@ html, body {
 object-fit: cover;
 
 }
-.slideshow .subtitle
+.slideshow .subtitle1
 {
-    
-
-    color: white;
-    font-size: 2em;
+color: white;
+font-size: 2em;
 position: absolute;
 top:200px;
 margin: auto;
 padding: 7px;
 width: 90%;
-
 text-align: center;
 }
+
+.slideshow .subtitle2
+{
+color: white;
+font-size: 2em;
+position: absolute;
+top:200px;
+padding: 7px;
+text-align: center;
+    width: 90%;
+    
+}
+
+.slideshow .subtitle3
+{
+color: white;
+font-size: 2em;
+position: absolute;
+top:200px;
+margin: auto;
+padding: 7px;
+width: 90%;
+text-align: center;
+}
+
 .slideshow .button-left
 {   
     height: 40px;
@@ -276,12 +298,8 @@ body
 }
 .aboutUs .smalltext
 { 
-
- 
     text-align: justify;
-
     line-height: 130%;
-   
    padding: 30px;
    padding-top: 0px;
 font-size: 18px;
