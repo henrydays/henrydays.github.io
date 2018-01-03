@@ -269,8 +269,14 @@ font-family: GothamBold;
 
 .horizontal-fullwidth
 {
-display: flex;
-flex-direction: row;
+    .textbox
+    {
+        padding: 12px;
+        width: 70%;
+    }
+
+    display: flex;
+    flex-direction: row;
     background-color: #50484b;
     color: white;
     margin: 0 auto;
@@ -280,13 +286,6 @@ flex-direction: row;
     padding: 30px;
 
 }
-.horizontal-fullwidth .textbox
-{
-padding: 12px;
-width: 70%;
-
-}
-
 #buttonPrimary
 {
     background-color: transparent; /* Green */
@@ -298,15 +297,12 @@ width: 70%;
     font-size: 18px;
     padding: 15px;
     border-radius: 3px;
-
-}
-
-#buttonPrimary:hover
-{  
-   
-background-color:#e39529;
-color: white;
-
+    
+    &:hover
+    {   
+        background-color:#e39529;
+        color: white;
+    }
 }
 
 .contentSponsors
