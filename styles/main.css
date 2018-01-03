@@ -202,10 +202,9 @@ body {
   flex-direction: row;
   width: 100%;
   background-color: white; }
-
-.sponsor {
-  padding: 0 6%;
-  align-content: center; }
+  .contentSponsors .sponsor {
+    padding: 0 6%;
+    align-content: center; }
 
 @media only screen and (max-width: 700px) {
   .aboutUs .smalltext {
@@ -220,60 +219,51 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: #50484b; }
+  .footer .about {
+    padding-top: 75px;
+    padding-left: 20px;
+    width: 40%;
+    min-width: 300px; }
+    .footer .about .logo {
+      color: #e3952a;
+      font-size: 30px;
+      padding-bottom: 5px;
+      width: 100%; }
+    .footer .about .text-about {
+      padding: 12px;
+      letter-spacing: 1px;
+      text-indent: 20px;
+      font-size: 13px;
+      line-height: 150%; }
+    .footer .about .rights {
+      padding-left: 30px; }
+  .footer .sitemap {
+    padding: 40px;
+    width: 20%; }
+    .footer .sitemap .title {
+      font-family: GothamBold;
+      text-align: center;
+      font-size: 20px;
+      color: #e39529; }
+    .footer .sitemap a {
+      color: white;
+      text-decoration: none; }
+      .footer .sitemap a:hover {
+        color: #e3952a; }
+    .footer .sitemap li {
+      padding-bottom: 5px;
+      list-style-type: none;
+      text-decoration: none; }
+  .footer .social {
+    width: 20%;
+    padding: 40px; }
+    .footer .social .social-icon {
+      color: white;
+      padding: 8px;
+      font-size: 46px; }
 
-.footer .about {
-  padding-top: 75px;
-  padding-left: 20px;
-  width: 40%;
-  min-width: 300px; }
-
-.footer .about .logo {
-  color: #e3952a;
-  font-size: 30px;
-  padding-bottom: 5px;
-  width: 100%; }
-
-.footer .about .text-about {
-  padding: 12px;
-  letter-spacing: 1px;
-  text-indent: 20px;
-  font-size: 13px;
-  line-height: 150%; }
-
-.footer .about .rights {
-  padding-left: 30px; }
-
-.footer .sitemap {
-  padding: 40px;
-  width: 20%; }
-
-.footer .sitemap .title {
-  font-family: GothamBold;
-  text-align: center;
-  font-size: 20px;
-  color: #e39529; }
-
-.footer .sitemap a {
-  color: white;
-  text-decoration: none; }
-
-.footer .sitemap li {
-  padding-bottom: 5px;
-  list-style-type: none;
-  text-decoration: none; }
-
-.footer .sitemap a:hover {
-  color: #e3952a; }
-
-.footer .social {
-  width: 20%;
-  padding: 40px; }
-
-.footer .social .social-icon {
-  color: white;
-  padding: 8px;
-  font-size: 46px; }
-
+.footer
+.footer .social
 .footer .social .social-icon:hover {
   color: #e39529; }
 
