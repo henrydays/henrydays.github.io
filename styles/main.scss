@@ -4,11 +4,13 @@
     src: url('fonts/Gotham-Thin.otf');
 
 }
+
 @font-face {
     font-family: 'GothamBold';
     src: url('fonts/GOTHAM-BOLD.ttf');
 
 }
+
 @font-face
 {
     font-family: 'GothamMedium';
@@ -23,11 +25,25 @@ html, body {
     padding: 0;
        
 }
+
 body
 {  
     font-weight: bold;
     font-family: NewFontThin;
-    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #edeced;
+}
+
+.boxed-layout
+{
+
+width: 90%;
+margin: 0 auto;
+background-color: white;
+box-shadow: 0 0 10px #50484b;
+box-shadow: 0 0 10px #50484b;
+
 }
 
 .getTicketsTop
@@ -77,7 +93,6 @@ font-family: GothamBold;
     float: right;
   
 }
-
  
 .nav-bar 
 {   
@@ -109,9 +124,9 @@ font-family: GothamBold;
     width: 90%;
     letter-spacing: 2px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);  
-
-    
+  
 }
+
 .slideshow
 {
     .subtitle
@@ -173,7 +188,6 @@ font-family: GothamBold;
     
 }
 
-
 .aboutUs
 {
    
@@ -213,8 +227,6 @@ font-family: GothamBold;
     align-items: center;
 
 }
-
-
 
 .content
 {
@@ -256,6 +268,19 @@ font-family: GothamBold;
         color: #616161;
     }
 
+    .iphone
+    {
+        img
+        {   
+            margin: 0 25%;
+            width: 50%;
+        }
+
+        width: 30%;
+        margin-top: 50px;
+        height: 400px;
+    }
+ 
     display: flex;
     min-width: 300px;
     width: 100%;
@@ -266,11 +291,16 @@ font-family: GothamBold;
 
 }
 
-
 .horizontal-fullwidth
 {
-display: flex;
-flex-direction: row;
+    .textbox
+    {
+        padding: 12px;
+        width: 70%;
+    }
+
+    display: flex;
+    flex-direction: row;
     background-color: #50484b;
     color: white;
     margin: 0 auto;
@@ -280,13 +310,6 @@ flex-direction: row;
     padding: 30px;
 
 }
-.horizontal-fullwidth .textbox
-{
-padding: 12px;
-width: 70%;
-
-}
-
 #buttonPrimary
 {
     background-color: transparent; /* Green */
@@ -298,36 +321,28 @@ width: 70%;
     font-size: 18px;
     padding: 15px;
     border-radius: 3px;
-
-}
-
-#buttonPrimary:hover
-{  
-   
-background-color:#e39529;
-color: white;
-
+    
+    &:hover
+    {   
+        background-color:#e39529;
+        color: white;
+    }
 }
 
 .contentSponsors
 {
+    .sponsor
+    {
+        padding: 0 6% ;
+        align-content: center;
+    }
+
     padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
-
     background-color: white;
-
-}
-.sponsor
-{
-
-padding: 0 6% ;
-
-align-content: center;
-
-
 
 }
 
@@ -350,105 +365,107 @@ align-content: center;
 
 }
 
-
 .footer
 {
+    .about
+    {
+        .logo
+        {
+            color:#e3952a;
+            font-size:30px;
+            padding-bottom: 5px;
+            width: 100%;
+        }
+
+        .text-about
+        {
+            padding: 12px;
+            letter-spacing: 1px;
+            text-indent: 20px;
+            font-size: 13px;
+            line-height: 150%;
+        }
+        .rights
+        {
+            padding-left: 30px;
+        }
+
+        padding-top:75px;
+        padding-left: 20px;
+        width: 40%;
+        min-width: 300px;
+    } 
+    .sitemap
+    {
+        .title
+        {
+            font-family:GothamBold;
+            text-align: center;
+            font-size: 20px;
+            color: #e39529;
+        }
+        a
+        {
+            &:hover
+            {
+                color: #e3952a;
+            }
+
+            color: white;
+            text-decoration: none;
+        } 
+       
+        li
+        {  
+            padding-bottom: 5px;
+            list-style-type: none;
+            text-decoration: none;
+
+        } 
+
+
+        padding: 40px;
+        width: 20%;
+    }
+    .social
+    {
+        .social-icon 
+        {
+            color:white;
+            padding: 8px;
+            font-size: 46px;
+           
+            &:hover
+            {
+                color: #e39529;
+            }  
+        }
+
+        .title
+        {
+            font-family:GothamBold;
+            text-align: center;
+            font-size: 20px;
+            color: #e39529;
+            width: 100%;
+            padding-bottom: 20px;
+        }
+        .follow-us
+        {
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        width: 20%;
+        padding: 40px;
+    }
+    
     color: white;
     display: flex;
     flex-wrap: wrap;
+    background-color: #50484b;
+}
 
-background-color: #50484b;
-
-
-}
-.footer .about
-{
-    padding-top:75px;
-    padding-left: 20px;
-    width: 40%;
-min-width: 300px;
-}
-.footer .about .logo
-{
-    color:#e3952a;
-    font-size:30px;
-    padding-bottom: 5px;
-    width: 100%;
-}
-.footer .about .text-about
-{
-    padding: 12px;
-    letter-spacing: 1px;
-    text-indent: 20px;
-    font-size: 13px;
-    line-height: 150%;
-
-}
-.footer .about .rights
-{
-    
-padding-left: 30px;
-}
-.footer .sitemap
-{
-    padding: 40px;
-  
-width: 20%;
-
-}
-.footer .sitemap .title
-{
-    font-family:GothamBold;
-    text-align: center;
-font-size: 20px;
-color: #e39529;
-
-}
-.footer .sitemap a
-{
-    color: white;
-    text-decoration: none;
-}
-.footer .sitemap li
-{  
-    padding-bottom: 5px;
-    list-style-type: none;
-    text-decoration: none;
-
-}
-.footer .sitemap a:hover
-{
-    color: #e3952a;
-
-}
-.footer .social
-{
-width: 20%;
-padding: 40px;
-}
-.footer .social .social-icon 
-{
-color:white;
-padding: 8px;
-font-size: 46px;
-}
-.footer .social .social-icon:hover
-{
-    color: #e39529;
-}
-.footer .social .title
-{font-family:GothamBold;
-    text-align: center;
-    font-size: 20px;
-color: #e39529;
-    width: 100%;
-    padding-bottom: 20px;
-}
-.footer .follow-us
-{
-    padding-top: 20px;
-    text-align: center;
-}
 .map
 {
     -webkit-filter: grayscale(100%);
@@ -456,45 +473,14 @@ color: #e39529;
 }
 .video-about 
 {
+    iframe
+    {
+        padding: 20px;
+        padding-right: 90px;
+        width: 85%;
+        height: 200px;
+    }
+
     width: 38%;
   
-}
-.video-about iframe
-{
-    padding: 20px;
-    padding-right: 90px;
-    width: 85%;
-height: 200px;
-
-
-}
-.iphone
-{
-    width: 30%;
-
-    margin-top: 50px;
-
-    height: 400px;
-}
-.iphone img
-{   
-margin: 0 25%;
-    width: 50%;
-}
-.boxed-layout
-{
-
-width: 90%;
-margin: 0 auto;
-background-color: white;
-box-shadow: 0 0 10px #50484b;
-box-shadow: 0 0 10px #50484b;
-
-}
-body
-{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #edeced;
-
 }
