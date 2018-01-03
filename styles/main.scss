@@ -256,12 +256,27 @@ font-family: GothamBold;
         color: #616161;
     }
 
-    display: flex;
-    min-width: 300px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 7.5px;
-    margin-bottom: 50px;    
+    .iphone
+    {
+        img
+        {   
+            margin: 0 25%;
+            width: 50%;
+        }
+        
+       display: flex;
+        min-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 7.5px;
+        margin-bottom: 50px;  
+
+    }
+    
+
+       width: 30%;
+        margin-top: 50px;
+        height: 400px;
   
 
 }
@@ -445,9 +460,6 @@ font-family: GothamBold;
 
 }
 
-.
-
-
 
 .map
 {
@@ -468,19 +480,7 @@ height: 200px;
 
 
 }
-.iphone
-{
-    width: 30%;
 
-    margin-top: 50px;
-
-    height: 400px;
-}
-.iphone img
-{   
-margin: 0 25%;
-    width: 50%;
-}
 .boxed-layout
 {
 
