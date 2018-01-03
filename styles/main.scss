@@ -1,0 +1,499 @@
+
+@font-face {
+    font-family: 'NewFontThin';
+    src: url('fonts/Gotham-Thin.otf');
+
+}
+@font-face {
+    font-family: 'GothamBold';
+    src: url('fonts/GOTHAM-BOLD.ttf');
+
+}
+@font-face
+{
+    font-family: 'GothamMedium';
+    src: url('fonts/GOTHAM-MEDIUM.TTF');
+
+}
+
+$hoverColor:#5372e8;
+
+html, body {
+    margin: 0;
+    padding: 0;
+       
+}
+body
+{  
+    font-weight: bold;
+    font-family: NewFontThin;
+    background-color: white;
+}
+
+.getTicketsTop
+{
+    h3
+    {
+        padding: 0;
+        margin: 0;
+        padding-left: 25px;
+        color: white;
+        height: 30px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    a
+    {   
+        &:hover
+        {
+            color:#5372e8; 
+        }
+        font-family: GothamBold;
+        text-decoration: none;
+        color: #e39529;
+
+    }
+
+    width: 100%;
+    background-color: #50484b;
+
+}
+ 
+.logo
+{
+float: left;
+padding: 26px;
+font-weight:bold;
+font-size: 20px;
+font-family: GothamBold;
+
+
+}
+
+.menu
+{   
+    padding-right: 20px;
+    float: right;
+  
+}
+
+ 
+.nav-bar 
+{   
+
+    li
+    {
+        display: inline-block;
+        padding: 10px 10px 10px 10px;
+        
+        a
+        {
+
+            text-decoration: none;
+            color: white;
+        
+            &:hover
+            {
+                font-weight: bold;
+                color: #472e73;
+            }  
+
+        }   
+    }  
+
+    position: absolute;
+    top: 50px; 
+    color:white;
+    font-size: 15px;
+    width: 90%;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);  
+
+    
+}
+.slideshow
+{
+    .subtitle
+    {
+        color: white;
+        font-size: 2em;
+        position: absolute;
+        top:200px;
+        margin: auto;
+        padding: 7px;
+        width: 90%;
+        text-align: center;
+
+    }
+   .button 
+    {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        border-color: #4f484a;
+        background-color: #4f484a!important;
+        color: white;
+        border-width: 0px;
+    }
+
+    .left
+    {
+        top: 200;
+    }
+
+    .right
+    { 
+     
+        right: 5%;
+        top:200px;
+    }
+    h1
+    {
+        margin: 20% auto auto auto;
+    }
+    .slide-img
+    {
+        resize: both;
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    position: static;
+    color: black;
+    font-size: 30px;
+    font-family: GothamBold;
+    font-size: 1em;
+    width: 100%;
+    height:360px;
+    background-color: #5372e8;
+    
+}
+
+
+.aboutUs
+{
+   
+    .smalltext
+    { 
+        p
+        {
+            margin: 10px;
+            text-indent: 50px;
+        }
+
+        text-align: justify;
+        line-height: 130%;
+        padding: 30px;
+        padding-top: 0px;
+        font-size: 18px;
+        max-width: 55%;
+    }
+    h1
+    {
+        min-width: 600px;
+        font-family: GothamMedium;
+        margin: 0;   
+        padding: 40px 0 0px 90px;;
+    }
+
+    color: #212121;
+    background-color: #f5f5f5;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+
+}
+
+
+
+.content
+{
+    .tabs-content
+    {
+        width: 60%;
+        padding-left: 12px;
+        padding-right: 12px;
+        display: -webkit-box;
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: start;
+        align-items: flex-start;
+    }
+    .event
+    {
+        width: 40%;
+        margin-top: 35px;
+        padding: 0 20px 0 0;
+    }
+    .icon-container
+    {
+        font-size: 100;
+        color:#5372e8; 
+    }
+    .event-title
+    {
+        font-family: GothamMedium;
+        margin: 10px 0 5px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .event-description
+    {
+        font-size: 15px;
+        color: #616161;
+    }
+
+    display: flex;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 7.5px;
+    margin-bottom: 50px;    
+  
+
+}
+
+.horizontal-fullwidth
+{
+display: flex;
+flex-direction: row;
+    background-color: #50484b;
+    color: white;
+    margin: 0 auto;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+
+}
+.horizontal-fullwidth .textbox
+{
+padding: 12px;
+width: 70%;
+
+}
+
+#buttonPrimary
+{
+    background-color: transparent; /* Green */
+    border: solid;
+    border-color: #e39529;
+    color: #e39529;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 3px;
+
+}
+
+#buttonPrimary:hover
+{  
+   
+background-color:#e39529;
+color: white;
+
+}
+
+.contentSponsors
+{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+
+    background-color: white;
+
+}
+.sponsor
+{
+
+padding: 0 6% ;
+
+align-content: center;
+
+
+
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .aboutUs .smalltext
+    {
+        width:100%;
+        margin: 0 auto;
+    }
+    .nav-bar li
+    {
+        display: none;
+        padding: 10px 10px 10px 10px;
+    }
+   .menu
+   {
+
+   }
+
+}
+
+
+.footer
+{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+background-color: #50484b;
+
+
+}
+.footer .about
+{
+    padding-top:75px;
+    padding-left: 20px;
+    width: 40%;
+min-width: 300px;
+}
+.footer .about .logo
+{
+    color:#e3952a;
+    font-size:30px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+.footer .about .text-about
+{
+    padding: 12px;
+    letter-spacing: 1px;
+    text-indent: 20px;
+    font-size: 13px;
+    line-height: 150%;
+
+}
+.footer .about .rights
+{
+    
+padding-left: 30px;
+}
+.footer .sitemap
+{
+    padding: 40px;
+  
+width: 20%;
+
+}
+.footer .sitemap .title
+{
+    font-family:GothamBold;
+    text-align: center;
+font-size: 20px;
+color: #e39529;
+
+}
+.footer .sitemap a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer .sitemap li
+{  
+    padding-bottom: 5px;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.footer .sitemap a:hover
+{
+    color: #e3952a;
+
+}
+.footer .social
+{
+width: 20%;
+padding: 40px;
+}
+.footer .social .social-icon 
+{
+color:white;
+padding: 8px;
+font-size: 46px;
+}
+.footer .social .social-icon:hover
+{
+    color: #e39529;
+}
+.footer .social .title
+{font-family:GothamBold;
+    text-align: center;
+    font-size: 20px;
+color: #e39529;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.footer .follow-us
+{
+    padding-top: 20px;
+    text-align: center;
+}
+.map
+{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.video-about 
+{
+    width: 38%;
+  
+}
+.video-about iframe
+{
+    padding: 20px;
+    padding-right: 90px;
+    width: 85%;
+height: 200px;
+
+
+}
+.iphone
+{
+    width: 30%;
+
+    margin-top: 50px;
+
+    height: 400px;
+}
+.iphone img
+{   
+margin: 0 25%;
+    width: 50%;
+}
+.boxed-layout
+{
+
+width: 90%;
+margin: 0 auto;
+background-color: white;
+box-shadow: 0 0 10px #50484b;
+box-shadow: 0 0 10px #50484b;
+
+}
+body
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #edeced;
+
+}
