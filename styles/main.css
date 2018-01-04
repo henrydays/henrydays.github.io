@@ -83,7 +83,7 @@ body {
   .nav-bar .menu {
     padding-right: 20px;
     float: right; }
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 1050px) {
       .nav-bar .menu {
         display: none; }
         .nav-bar .menu li, .nav-bar .menu div {

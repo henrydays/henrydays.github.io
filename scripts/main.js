@@ -22,16 +22,16 @@
 		
 		 $(".slideshow").animate(
 		 {
-		 	"padding-top":"400px"
+		 	"padding-top":"270px"
 		 }
 		 );
 		 $(".slideshow .subtitle").animate({
-		 	"top":"600"
+		 	"top":"450"
 
 		 })
 
 		 $(".slideshow .button").animate({
-		 	"top":"600"})
+		 	"top":"450"})
 		  
 		 expanded=true;
     	}
