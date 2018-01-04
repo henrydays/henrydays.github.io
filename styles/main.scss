@@ -86,7 +86,7 @@ text-decoration: none;
 color: white;
 
     &:hover{
-        color: #5353c6;
+        color: #80dfff;
     }
 }
 
@@ -162,11 +162,12 @@ color: white;
 
             text-decoration: none;
             color: white;
+            font-family: 'NewFontThin';
         
             &:hover
             {
                 font-weight: bold;
-                color: #472e73;
+                color: #80dfff;
             }  
 
         }   
@@ -175,6 +176,8 @@ color: white;
     {
         position: relative;
         display: inline-block;
+    font-family: 'NewFontThin';
+        
     }
 
     .dropdown-content 
@@ -264,6 +267,15 @@ color: white;
         padding: 10px;
         width: 90%;
         text-align: center;
+
+    }
+
+    .teste1
+    {  
+        text-shadow: 1px 0px 0px #808080, 
+                 -1px 0px 0px #808080, 
+                 0px 1px 0px #808080, 
+                 0px -1px 0px #808080;
 
     }
 
