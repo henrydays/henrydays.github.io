@@ -1,23 +1,57 @@
   $(document).ready(function(){
-    $("#nav-toggle").click(function()
+    
+    $("#nav-toggle").click(toggle);
+
+    var expanded=false;
+
+    function toggle()
     {
+    	if(!expanded)
+    	   {
 		
-	  	
-		 $(".slideshow").css(
+		 $(".slideshow").animate(
 		 {
-		 	"padding-top":"200px"
+		 	"padding-top":"400px"
 		 }
 		 );
-		 $(".slideshow .subtitle").css({
-		 	"top":"400"
+		 $(".slideshow .subtitle").animate({
+		 	"top":"600"
 
 		 })
 
-		 $(".slideshow .button").css({
-		 	"top":"400"
+		 $(".slideshow .button").animate({
+		 	"top":"600"})
+		  
+		 expanded=true;
+    	}
+    	else
+    	{
+
+		 $(".slideshow .button").animate({
+		 	"top":"200"})
+    		$(".slideshow .subtitle").animate({
+		 	"top":"200"
 
 		 })
+    		 $(".slideshow").animate(
+		 {
+		 	"padding-top":"0px"
+		 }
+		 );
+		 
+
+		
+		 expanded=false;
+		
+    	}
+
+    }
 
 
-    })
-});
+}
+);
+
+  function toggleBurger(x) {
+    x.classList.toggle(	"change");
+}
+

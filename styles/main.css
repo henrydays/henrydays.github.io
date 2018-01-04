@@ -50,6 +50,17 @@ body {
   font-size: 20px;
   font-family: GothamBold; }
 
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px); }
+
 .nav-bar {
   position: absolute;
   top: 50px;
@@ -58,6 +69,17 @@ body {
   width: 90%;
   letter-spacing: 2px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); }
+  .nav-bar #nav-toggle {
+    margin-left: 50%;
+    margin: 20%;
+    display: inline-block;
+    cursor: pointer; }
+    .nav-bar #nav-toggle .bar1, .nav-bar #nav-toggle .bar2, .nav-bar #nav-toggle .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: white;
+      margin: 6px 0;
+      transition: 0.4s; }
   .nav-bar .menu {
     padding-right: 20px;
     float: right; }
@@ -105,7 +127,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    background: black;
+    background: transparent;
     height: 70px;
     width: 70px; }
   .nav-bar .nav-responsive {
