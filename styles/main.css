@@ -449,4 +449,9 @@ body {
     text-align: center;
     color: #5372e8; }
 
+.schedule {
+  width: 100%;
+  background-color: #edeced;
+  height: 400px; }
+
 /*# sourceMappingURL=main.css.map */
