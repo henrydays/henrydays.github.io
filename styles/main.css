@@ -61,6 +61,12 @@ body {
   .nav-bar .menu {
     padding-right: 20px;
     float: right; }
+    @media only screen and (max-width: 1150px) {
+      .nav-bar .menu {
+        display: none; }
+        .nav-bar .menu li, .nav-bar .menu div {
+          width: 100%;
+          background: black; } }
   .nav-bar li {
     display: inline-block;
     padding: 10px 10px 10px 10px; }
@@ -82,9 +88,9 @@ body {
     z-index: 1;
     border-radius: 5px; }
   .nav-bar .dropdown-content li {
-    width: 80%;
+    width: 100%;
     padding: 0px; }
-    .nav-bar .dropdown-content li a {
+    .nav-bar .dropdown-content li a, .nav-bar .dropdown-content li div {
       padding: 15px;
       color: black;
       text-align: center;
@@ -104,7 +110,7 @@ body {
     width: 70px; }
   .nav-bar .nav-responsive {
     display: none; }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1150px) {
       .nav-bar .nav-responsive {
         display: block; } }
 
@@ -134,12 +140,10 @@ body {
     border-color: #4f484a;
     background-color: #4f484a !important;
     color: white;
-    border-width: 0px; }
-  .slideshow .left {
-    top: 200; }
-  .slideshow .right {
-    right: 5%;
+    border-width: 0px;
     top: 200px; }
+  .slideshow .right {
+    right: 5%; }
   .slideshow h1 {
     margin: 20% auto auto auto; }
   .slideshow .slide-img {

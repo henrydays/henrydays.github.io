@@ -90,15 +90,26 @@ font-family: GothamBold;
  
 .nav-bar 
 {   
+     @media only screen and (max-width: 800px) 
+        {
 
+        }
     .menu
     {   
         padding-right: 20px;
         float: right;
-        @media only screen and (max-width: 700px) 
+
+        @media only screen and (max-width: 1150px) 
         {
-     
+            display:none;
+            li, div
+            {
+                width:100%;
+                background:black;
+            }
         }
+
+
     }
     
     li
@@ -139,10 +150,11 @@ font-family: GothamBold;
 
     .dropdown-content li 
     {
-        width:80%;
+        width:100%;
         padding:0px;  
         
-        a{
+        a,div{
+            
             padding:15px;
             color:black;
             text-align:center;
@@ -175,7 +187,7 @@ font-family: GothamBold;
     {
       display:none;
 
-      @media screen and (max-width:700px)
+      @media screen and (max-width:1150px)
       {display:block;
 
       }
@@ -196,6 +208,8 @@ font-family: GothamBold;
 
 .slideshow
 {
+    
+
     .subtitle
     {
         color: white;
@@ -218,18 +232,17 @@ font-family: GothamBold;
         background-color: #4f484a!important;
         color: white;
         border-width: 0px;
+        top:200px;
     }
 
     .left
     {
-        top: 200;
+        
     }
 
     .right
     { 
-     
-        right: 5%;
-        top:200px;
+        right: 5%;    
     }
     h1
     {
