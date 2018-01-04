@@ -1,0 +1,132 @@
+﻿body {
+	background-color: #b7d1c4
+}
+
+h2 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
+}
+p {
+	font-family: Tahoma;
+	font-size: 1em;
+}
+img {
+	height: 170px;
+	width: 170px;
+	box-shadow: rgba(0,0,0,0.2) 10px 10px;
+
+}
+
+#header {
+    position: relative;
+    background-color: #3C4543;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: -10px;
+
+}
+#navbar {
+    position: fixed;
+    top: -16px;
+    left: 50%;
+    margin-left: -178px;
+}
+
+li {
+    display: inline;
+    border: 2px solid #000000;
+    font-family: Futura, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px;
+    background-color: #CC0323;
+}
+
+#left{
+    float: left;
+    width: 45%;
+}
+
+#right{
+    float: right;
+    width: 45%;
+}
+.img_left {
+    float: left;
+    margin: 20px;
+}
+table {
+    float: right;
+    margin-right: 10px;
+    border: solid 1px #000000;
+    border-bottom: 15px 15px;
+    background-color: #ACD1B2;
+}
+
+td {
+	height: 75px;
+	width: 75px;
+}
+
+td img {
+	height: 75px;
+	width: 75px;
+	box-shadow: none;
+}
+
+th {
+	font-family: Verdana;
+	font-size: 1em;
+	font-weight: normal;
+	color: #3c4543
+}
+
+#bottom_left{
+    border-bottom-left-radius: 15px;
+}
+
+#bottom_right{
+    border-bottom-right-radius: 15px;
+}
+
+#footer {
+    clear: both;
+    position: relative;
+    height: 75px;
+    background-color: #3C4543;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    bottom: -20px;
+}
+
+#button {
+    position: relative;
+    left: 229px;
+    border: 2px solid #000000;
+    background-color: #CC0323;
+    width: 150px;
+    height: 30px;
+    bottom: -20px;
+    border-radius: 5px;
+}
+
+#button p{
+    position: relative;
+    text-align: center;
+    font-size: 0.8em;
+    color: #ACD1B2;
+    bottom: 10px;
+}
+
+.bold{
+    font-variant: small-caps;
+    font-weight: bold;
+    font-family: Tahoma;
+    font-size: 1.2em;
+    color: white;
+}
+

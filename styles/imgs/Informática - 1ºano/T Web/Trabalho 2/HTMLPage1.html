@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>A minha escola secundária</h1>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.5886886475314!2d-8.582738084639123!3d39.25220767951747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18f157d2ab9ceb%3A0x559e472782067d4!2sAgrupamento+de+Escolas+de+Jos%C3%A9+Relvas!5e0!3m2!1spt-PT!2spt!4v1482244469192" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    <ol>
+        <li>Matemática</li>
+            <ul>
+                <li>Matemática A</li>
+                <li>Matemática B</li>
+            </ul>
+        <li>Física e Química A</li>
+        <li>Humanidades</li>
+            <ul>
+                <li>Línguas</li>
+                    <ul>
+                        <li>Português</li>
+                        <li>Línguas Estrangeiras</li>
+                            <ul>
+                                <li>Inglês</li>
+                                <li>Francês</li>
+                            </ul>
+                    </ul>
+                <li>História</li>
+                <li>Filosofia</li>
+            </ul>
+    </ol>
+
+    <table border="2"> 
+        <caption>Mapa de Exames</caption>
+        <tfoot>                             <!-- 5) -->
+            <tr>
+                <td colspan="9">maio/2016 Ministério da Educação e Ciência</td>
+
+            </tr>     
+        </tfoot>
+
+        <tr>                                <!-- Primeira linha -->
+            <th rowspan="2">Ano</th>
+            <th colspan="7">Disciplinas</th>        <!-- 4) + rowspan-->
+            <th rowspan="2">Material</th>
+        </tr>
+
+        <tr>                                <!-- 4) nova "segunda linha"-->
+            <th>Matemática</th>
+            <th>Física</th>
+            <th>História</th>
+            <th>Filosofia</th>
+            <th>Português</th>
+            <th>Inglês</th>
+            <th>Francês</th>
+        </tr>
+
+
+
+        <tr>                                <!-- Segunda linha -->
+            <td>10º</td>
+            <td rowspan="3">Exame</td>
+            <td rowspan="3">Exame</td>
+            <td><img src="wrongCross.png" /></td>
+            <td><img src="wrongCross.png" /></td>       <!-- 3) <td colspan="2">&nbsp</td> -->
+            <td rowspan="3">Exame</td>
+            <td rowspan="2">Exame</td>
+            <td rowspan="2">Exame</td>
+            <td rowspan ="3">                           <!-- 4) + <td></td>-->
+                <ul>
+                    <li>BI/CC</li>
+                    <li>Recibo</li>
+                    <li>Caneta azul</li>
+                </ul>
+            </td>    
+        </tr>
+
+        <tr>                                <!-- Terceira linha -->
+            <td>11º</td>
+            <td>Exame</td>
+            <td>Exame</td>
+        </tr>
+
+        <tr>                                <!-- Quarta linha -->
+            <td>12º</td>
+            <td>Exame</td>
+            <td>Exame</td>
+            <td>Exame</td>
+            <td>Exame</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿body { 
+    font:13px Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+text-align:center;
+}
+
+#form {
+    background: #ccc;
+    width: 420px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+
+}
+#form legend {
+    text-align:left;
+}
+#form #name {
+    margin:5px;
+    padding:5px;
+    width:280px;
+}
+#form button {
+    display:inline-block;
+    margin:5px auto;
+    padding:10px;
+}
+legend {
+    font-weight:bold;
+    font-size:17px;
+    color:#069;
+	}
+fieldset {    
+          border-radius:10px;
+          margin-bottom:5px;
+          border: 2px solid #006699;
+}

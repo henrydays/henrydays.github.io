@@ -1,0 +1,43 @@
+﻿#caixa {
+    width: 500px;
+    height: 500px;
+    margin: 0px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #060;
+}
+
+body {
+    background-image: url("imgs/relva.jpg");
+}
+
+#casa {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#telhado {
+    position: relative;
+    bottom: 320px;
+    left: 35px;
+}
+
+#chamine {
+    position: relative;
+    bottom: 735px;
+    left: 265px;
+}
+
+
+#porta {
+    position: relative;
+    left: 275px;
+    bottom: 465px;
+}
+
+#janela {
+    position: relative;
+    bottom: 485px;
+    right: 12px;
+}

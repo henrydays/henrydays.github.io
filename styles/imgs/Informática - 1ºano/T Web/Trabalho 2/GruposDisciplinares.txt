@@ -1,0 +1,13 @@
+Grupos Disciplinares
+Matemática
+Matemática A
+Matemática B
+Física e Química
+Humanidades   
+Línguas
+Português
+Línguas Estrangeiras
+Inglês
+Francês
+História
+Filosofia

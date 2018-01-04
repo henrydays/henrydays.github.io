@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ficha 10</title>
+    <link href="estilosF11.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function calculaNota(formulario){
+            /* alert("teste") */
+            var isValid = formulario.checkValidity();
+        if(isValid == false){
+        return false;
+        } alert("Passou validações!")
+
+        var nTp1 = formulario.nTp1.value;
+        var nTp2 = formulario.nTp2.value;
+        var nExame = formulario.nExame.value;
+
+        /* alert("Nota TP1 = "+nTp1+" | Nota TP2 = "+nTp2+" | Nota Exame = "+nExame); */
+
+        var notaFinal = (nTp1 * 0.02) + (nTp2 * 0.06) + (nExame * 0.6);
+        formulario.nFinal.value = Math.round(notaFinal);
+
+        var _situacao = document.getElementById("situacao");
+        _situacao.setAttribute('style','display:block; color:white;');
+
+            if (nTp2 < 35){
+                _situacao.className="reprovado";
+                formulario.nFinal.value="7";
+                _situacao.innerHTML="Aluno reprovado! <br/> Sem mínimos no TP2!"
+            }else if(nExame < 7){
+                _situacao.className="reprovado"
+                formulario.nFinal.value="7";
+                _situacao.innerHTML="Aluno reprovado! <br/> Sem mínimos no exame!"
+            }else if(notaFinal < 9.5) {
+                _situacao.className="reprovado";
+                _situacao.innerHTML="Aluno reprovado!";
+            }else{
+                _situacao.className="aprovado";
+                _situacao.innerHTML="Aluno aprovado!";
+            }
+        }
+
+        function _reset(){
+        document.getElementById("nFinal").value="";
+        document.getElementById("situacao").style.display="none";
+        }
+
+        
+
+ 
+    </script>
+</head>
+<body>
+    <form  id="form" onsubmit="event.preventDefault();">
+        <fieldset><legend>Avaliação Tecnologias Web</legend>
+        <ol> 
+            <li><label for="nTp1">Nota do TP 1 [0-100%]</label><input type="number"  min="0" max="100" name="nTp1" id="nTp1" title="O número introduzido não é válido!" required="required" onchange="_reset"/></li>
+            <li><label for="nTp2"> Nota do TP 2 [0-100%]</label><input type="number" min="0" max="100" name="nTp2" id="nTp2" title="O número introduzido não é válido!"  required="required" onchange="_reset" /></li>
+            <li><label for="nExame"> Exame Final [0-20]</label><input type="number" min="0" max="20.00" step="0.01"name="nExame" id="nExame" title="O número introduzido não é válido!" required="required" onchange="_reset" /></li>
+            <li id="calcular">
+                <button onclick="calculaNota(this.form)">Calcular Nota Final</button>
+                <input type="reset" value="Limpar"/>	
+            </li>
+            <li><label for="nExame"><strong>Nota Final [0-20]</strong></label><input type="text" id="nFinal" readonly="readonly" disabled="disabled" /></li>
+            <li id="situacao"></li>
+         </ol>
+         </fieldset>
+    </form>
+</body>
+</html>

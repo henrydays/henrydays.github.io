@@ -1,0 +1,61 @@
+﻿#Global {
+    margin-bottom: 0px auto;
+    margin-top: 0px auto;
+    margin-right: 0px auto;
+    margin-left: 0px auto;
+    width: 760px;
+}
+
+.box {
+    margin: 10px;
+    background-color: #FAFAD2;
+    padding: 6px;
+}
+
+.box img {
+    float: left;
+    padding: 10px;
+}
+
+.escondida {
+    display: none;
+}
+
+.invisivel {
+    visibility: hidden;
+} 
+
+.transparente {
+    opacity:0.4;
+}
+
+.transparente:hover {
+    opacity:1.0;
+}
+
+.linha li {
+    display: inline;
+    text-align: center;
+    background-color: #99AABB;
+    color: white;
+    border: 2px solid #DDDDDD;
+    padding: 0.25em;
+    margin: 0.5em;
+}
+
+.bloco a, .bloco a:visited {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #99AABB;
+    padding: 0.25em;
+    margin:0.5em auto;
+    color: white;
+    width: 10em;
+    border: 2px solid #DDDDDD;
+}
+
+.bloco a:hover {
+    border-color: #AAAAAA #FFFFFF #FFFFFF #AAAAAA;
+}
+

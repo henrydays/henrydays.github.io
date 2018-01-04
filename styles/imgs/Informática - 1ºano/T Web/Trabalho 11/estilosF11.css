@@ -1,0 +1,87 @@
+﻿body { 
+    font:13px Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+text-align:center;}
+#form {
+    background: #ccc;
+    width: 420px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+
+}
+
+legend {
+    font-weight:bold;
+    font-size:17px;
+    color:#069;
+	}
+fieldset {    
+          border-radius:10px;
+          margin-bottom:5px;
+          border: 2px solid #006699;
+}
+	
+#form ol { 
+	list-style:none;
+	margin:0;
+	padding:0;
+    text-align:center;
+}
+#form li {  padding:6px; }
+
+#form label {
+    display:inline-block;
+    width:140px;
+    text-align:right;	
+    margin-right:5px;
+    color:#069;
+	}
+			
+#form input {
+	padding:3px;
+	width:45px;
+    margin:0px;
+}
+#form li#calcular input, li#calcular button{
+    cursor:pointer;
+    padding:5px;
+    width:130px;
+    background-color:#e1e1e1;
+    border-radius:10px;
+    color: black;
+
+}
+#form input:focus, #form li#calcular input:hover, #form li#calcular button:hover {
+    background-color: #006699;
+    color: white;
+}
+#form #nFinal {
+    border:none;
+    padding:5px;
+    font-weight:bold;
+    background:#006699;
+    color:white;
+    text-align:center;
+}
+
+#form #situacao{
+    margin:0px;
+    border-radius:10px;
+    border: 2px solid #006699;
+    text-align: center;
+    line-height:25px;
+    display:none;
+    padding:5px;
+    margin-top:10px;
+}
+#form #situacao.aprovado {
+    display:block;
+    background-color:green;
+}
+
+#form #situacao.reprovado {
+    display:block;
+    background-color:red;
+}
