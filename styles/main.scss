@@ -120,41 +120,46 @@ font-family: GothamBold;
 
         }   
     }  
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:white;
-   
-    min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
+    .dropdown 
+    {
+        position: relative;
+        display: inline-block;
+    }
 
-.dropdown-content li 
+    .dropdown-content 
+    {
+        display: none;
+        position: absolute;
+        background-color:white;
+        min-width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius:5px;
+    }
+
+    .dropdown-content li 
     {
         width:80%;
-        
         padding:0px;  
+        
         a{
             padding:15px;
             color:black;
-
-    text-decoration: none;
-    display: block;
+            text-align:center;
+            text-decoration: none;
+            display: block;
         }
-}
+    }
 
-.dropdown-content a:hover 
-{color:black;}
+    .dropdown-content a:hover 
+    {
+        color:#5372e8;}
 
-.dropdown:hover .dropdown-content {
-    display: block;
+    .dropdown:hover .dropdown-content 
+    {
+        display: block;
 
-}
+    }
 
     .nav-responsive 
     {
