@@ -75,16 +75,22 @@ box-shadow: 0 0 10px #50484b;
 
 }
  
-.logo
+.logo a
 {
 float: left;
 padding: 26px;
 font-weight:bold;
 font-size: 20px;
 font-family: GothamBold;
+text-decoration: none;
+color: white;
 
-
+    &:hover{
+        color: #5353c6;
+    }
 }
+
+
 
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
@@ -97,9 +103,10 @@ font-family: GothamBold;
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
 }
- 
+
 .nav-bar 
 {   
+
     #nav-toggle
     {
         margin-left: 50%;
@@ -118,7 +125,8 @@ font-family: GothamBold;
      @media only screen and (max-width: 800px) 
         {
 
-        }
+        } 
+
     .menu
     {   
         padding-right: 20px;
@@ -137,9 +145,9 @@ font-family: GothamBold;
             }
         }
 
-
     }
     
+
     li
     {
          @media only screen and (max-width: 800px) 

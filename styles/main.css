@@ -43,12 +43,16 @@ body {
     .getTicketsTop a:hover {
       color: #5372e8; }
 
-.logo {
+.logo a {
   float: left;
   padding: 26px;
   font-weight: bold;
   font-size: 20px;
-  font-family: GothamBold; }
+  font-family: GothamBold;
+  text-decoration: none;
+  color: white; }
+  .logo a:hover {
+    color: #5353c6; }
 
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
