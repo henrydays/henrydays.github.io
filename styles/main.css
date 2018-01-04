@@ -87,8 +87,7 @@ body {
       .nav-bar .menu {
         display: none; }
         .nav-bar .menu li, .nav-bar .menu div {
-          width: 100%;
-          background: black; } }
+          width: 100%; } }
   .nav-bar li {
     display: inline-block;
     padding: 10px 10px 10px 10px; }

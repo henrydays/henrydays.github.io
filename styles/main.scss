@@ -129,11 +129,13 @@ font-family: GothamBold;
 
         @media only screen and (max-width: 1150px) 
         {
+        
             display:none;
+
             li, div
             {
                 width:100%;
-                background:black;
+                
             }
         }
 
@@ -220,7 +222,8 @@ font-family: GothamBold;
       display:none;
 
       @media screen and (max-width:1150px)
-      {display:block;
+      {
+        display:block;
 
       }
 
