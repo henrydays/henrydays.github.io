@@ -450,8 +450,18 @@ body {
     color: #5372e8; }
 
 .schedule {
+  background-color: red;
   width: 100%;
   background-color: #edeced;
   height: 400px; }
+  .schedule .talks {
+    display: flex;
+    flex-wrap: wrap; }
+    .schedule .talks .talk {
+      margin: 20px;
+      width: 100%;
+      background-color: white;
+      border-left: 1px solid red;
+      padding: 30px; }
 
 /*# sourceMappingURL=main.css.map */

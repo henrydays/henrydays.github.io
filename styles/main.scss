@@ -778,17 +778,29 @@ color: white;
           color:#5372e8;
     }
 }
+
 .schedule
 {
+    background-color:red;
     width:100%;
     background-color:#edeced;
     height:400px;
     
     .talks
     {
+        display:flex;
+        flex-wrap:wrap;
 
         .talk
-        {
+        {   
+            margin:20px;
+            width:100%;
+            background-color:white;
+
+            border-left: 1px solid red;
+
+            padding:30px;
+
             .time
             {
                 .day
