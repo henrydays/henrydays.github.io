@@ -146,12 +146,9 @@ body {
   background-color: #5372e8; }
   .slideshow .subtitle {
     color: white;
-<<<<<<< HEAD
     text-shadow: 2px 2px 4px #000000;
     font-size: 2em;
-=======
     font-size: 2.5em;
->>>>>>> b6c9c7e434f913f910f4baedf99dde0ee03670b6
     position: absolute;
     top: 200px;
     margin: auto;
@@ -382,6 +379,7 @@ body {
   background-color: #edeced;
   display: flex; }
   .about-conf .info {
+    padding-left: 40px;
     width: 50%;
     background-color: white; }
   .about-conf .history {
