@@ -234,7 +234,7 @@ font-family: GothamBold;
     font-size: 15px;
     width: 90%;
     letter-spacing: 2px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);  
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);  
   
 }
   
@@ -247,7 +247,12 @@ font-family: GothamBold;
     .subtitle
     {
         color: white;
+<<<<<<< HEAD
+        text-shadow: 2px 2px 4px #000000;
+        font-size: 2em;
+=======
         font-size: 2.5em;
+>>>>>>> b6c9c7e434f913f910f4baedf99dde0ee03670b6
         position: absolute;
         top:200px;
         margin: auto;
@@ -648,3 +653,23 @@ font-family: GothamBold;
     width: 38%;
   
 }
+
+.about-conf
+{
+    background-color:#edeced;
+    display:flex;
+    .info
+    {
+        width:50%;
+        background-color:white;
+    
+    }
+    .history
+    { 
+        width:50%;
+        background-color:#edeced;
+    }
+
+}
+
+

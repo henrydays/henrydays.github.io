@@ -68,7 +68,7 @@ body {
   font-size: 15px;
   width: 90%;
   letter-spacing: 2px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3); }
   .nav-bar #nav-toggle {
     margin-left: 50%;
     margin: 20%;
@@ -146,7 +146,12 @@ body {
   background-color: #5372e8; }
   .slideshow .subtitle {
     color: white;
+<<<<<<< HEAD
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 2em;
+=======
     font-size: 2.5em;
+>>>>>>> b6c9c7e434f913f910f4baedf99dde0ee03670b6
     position: absolute;
     top: 200px;
     margin: auto;
@@ -372,5 +377,15 @@ body {
     padding-right: 90px;
     width: 85%;
     height: 200px; }
+
+.about-conf {
+  background-color: #edeced;
+  display: flex; }
+  .about-conf .info {
+    width: 50%;
+    background-color: white; }
+  .about-conf .history {
+    width: 50%;
+    background-color: #edeced; }
 
 /*# sourceMappingURL=main.css.map */
