@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html lang="">
+<html>
+
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Conference 2018</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+
+  
 <body>
-<<<<<<< HEAD
 
     
 
@@ -30,7 +34,6 @@
     <ul class="menu">
 
 <li><a href="conference.html"><i class="fa fa-users" aria-hidden="true"></i> Conference</a></li>
-
 <div class="dropdown">
     <i class="fa fa-book" aria-hidden="true"></i> Schedule
       <i class="fa fa-caret-down"></i>
@@ -141,12 +144,6 @@
   <div class="position">CEO</div>
   <div class="company">Nos</div>
 </div>
-<div class="speaker">
-  <div class="profile"> <img src="styles/imgs/mike.jpeg" width="100%" alt=""></div>
-  <div class="name">Mike Muscado</div>
-  <div class="position">CEO</div>
-  <div class="company">Mocada Sa</div>
-</div>
 
 <div class="speaker">
   <div class="profile"> <img src="styles/imgs/elon.jpeg" width="100%" alt=""></div>
@@ -210,8 +207,35 @@
 </div>
 
  
-=======
-    <p>Keynote Speakers</p>
->>>>>>> 8f641cbae39f7519e2abb738d3a952b00ea32809
 </body>
+
 </html>
+
+<script>
+    
+    var slideIndex = 1;
+   
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+      
+    }
+    
+    function showDivs(n) {
+      var i;
+      var slides = document.getElementsByClassName("slide");
+      
+      if (n > slides.length) 
+       { slideIndex = 1}    
+      
+      if (n < 1) {
+          slideIndex = slides.length
+          }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slides[slideIndex-1].style.display = "block";  
+    }
+   
+    </script>
