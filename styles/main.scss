@@ -690,8 +690,9 @@ color: white;
         background-color:white;
     
     }
-    .history
+    .timeline
     { 
+
         width:50%;
         background-color:#edeced;
     }
@@ -706,7 +707,7 @@ color: white;
     {
         text-align: center;
         color:white;
-        padding-top: 20px;
+        padding-top: 30px;
     }
 .gallery 
 { 
@@ -745,4 +746,35 @@ color: white;
   
 }
 
+.speakers
+{
+    display:flex;
+    flex-wrap:wrap;
+    margin:10px;
+    .speaker
+    {
+        width:200px;
+        background-color:white;
+        padding:20px;
+        margin:20px;
+    }
+    .name
+    {
+        font-family:GothamBold;
+        padding-top:10px;
+        text-align:center;
+    }
+    .position
+    {
+ padding-top:5px;
+        text-align:center;
 
+    }
+    .company
+    {
+
+    padding-top:5px;
+        text-align:center;
+          color:#5372e8;
+    }
+}
