@@ -1,0 +1,179 @@
+﻿body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: #CCC;
+}
+
+@font-face {
+    font-family: novaFonte;
+    src: url('novaFonte.ttf');
+}
+
+
+#global {
+    width: 750px;
+    background-color: #FFF;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 20px;
+    position: relative;
+    height: 750px;
+}
+
+
+    #global h1 {
+        font-weight: bold;
+        text-align: center;
+        font-family: novaFonte;
+        font-size: 48px;
+        color: #666;
+        text-shadow: 5px 5px 5px #999;
+    }
+
+.boxMenu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul.menu li {
+    display: inline;
+}
+
+    ul.menu li a {
+        background-color: #666;
+        color: #FFF;
+        border-right: 1px solid #CCC;
+        border-left: 1px solid #CCC;
+        display: block;
+        padding: 10px 25px;
+        text-decoration: none;
+        float: left;
+    }
+
+#galeria {
+    width: 750px;
+    background-color: white;
+    margin: 50px auto;
+    height: 400px;
+}
+
+dl.slides {
+    margin: 0;
+    list-style: none;
+    position: relative;
+    z-index: 100;
+    float: left;
+}
+
+    dl.slides dt {
+        font: bold 16px/40px;
+        color: #800;
+        padding: 0 10px;
+    }
+
+    dl.slides dd {
+        margin: 0;
+        padding: 0;
+    }
+
+        dl.slides dd a img {
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 50px;
+            width: 90px;
+            border: 4px dotted #000;
+            transform: rotate(-90deg);
+            z-index: -1;
+        }
+
+        dl.slides dd a:hover img {
+            left: 230px;
+            top: 0px;
+            width: 480px;
+            transition: all 3s ease-in-out;
+            transform: rotate(0);
+        }
+
+        dl.slides dd a {
+            display: block;
+            height: 30px;
+            text-decoration: none;
+            color: #000;
+            padding: 0 10px;
+            font-size: 14px;
+            background-image: url('trans.png');
+            background-repeat: repeat-y;
+        }
+
+#bola {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background: red;
+    animation: anim 4s linear infinite alternate;
+}
+
+
+.translate a:hover {
+    transform: translate(20px, 10px);
+}
+
+.rotate a:hover {
+    transform: rotate(30deg);
+}
+
+.rotate_X a:hover {
+    transform: rotateX(180deg);
+}
+
+.rotate_Y a:hover {
+    transform: rotateY(180deg);
+}
+
+.scale a:hover {
+    transform: scale(2,4);
+}
+
+@keyframes anim {
+    0% {
+        background: red;
+        left: 0%;
+    }
+
+    25% {
+        background: orange;
+        left: 25%;
+    }
+
+    50% {
+        background: yellow;
+        left: 50%;
+    }
+
+    75% {
+        background: green;
+        left: 75%;
+    }
+
+    100% {
+        background: blue;
+        left: 95%;
+    }
+}
+
+dl.slides dd a {
+    display: block;
+    height: 30px;
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+    dl.slides dd a:hover {
+        text-decoration: underline;
+    }

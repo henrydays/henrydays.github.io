@@ -1,0 +1,85 @@
+﻿#global {
+    color: white;
+    padding: 0.8em;
+    font-family: Verdana;
+    background-image: url(image_BG01.jpg);
+    background-size: cover;
+}
+
+#curso {
+    background-color: rgba(57,177,164,0.7);
+    padding: 1em;
+}
+
+    #curso h2 {
+        font-weight: 100;
+        padding: 0;
+        margin: 0;
+    }
+
+    #curso label {
+        font-size: 1.2em;
+        font-weight: 200;
+        padding-top: 12px;
+        display: block;
+    }
+
+    #curso input {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 200;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+        #curso input[type="submit"] {
+            background-color: #DB4D37;
+            color: white;
+            margin-top: 20px;
+            padding: 10px;
+            border: none;
+            font-size: 18px;
+        }
+
+#rodape {
+    background-color: #999;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+@media (min-width: 600px) {
+    .conteudo {
+        margin: auto;
+        max-width: 800px;
+    }
+
+#global {
+    padding: 20px 5%;
+}
+
+#global #principios {
+    float: left;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#global br {
+    clear: both;
+}
+
+#global #curso {
+    float: left;
+    width: 50px;
+    font-weight: 300;
+    padding: 20px;
+    box-sizing: border-box;
+}
+}

@@ -1,0 +1,52 @@
+﻿#Global {
+    margin: 0px;
+    width: 760px;
+}
+
+.box {
+    margin: 10px;
+    padding: 6px;
+    background-color: #FAFAD2;
+}
+
+.box img {
+    float: left;
+    padding: 10px;
+}
+
+.escondida {
+    display: none;
+}
+
+.invisivel {
+    visibility: hidden;
+}
+
+.transparente {
+    opacity: 0.4;
+}
+
+.linha li {
+    display: inline;
+    text-align: center;
+    color: white;
+    background-color: #99AABB;
+    border: 2px solid #DDDDDD;
+    padding: 0.25em;
+    margin: 0.5em;
+}
+
+.bloco a, .bloco a:visited {
+    display: block;
+    width: 10em;
+    text-align: center;
+    color: white;
+    background-color: #99AABB;
+    border: 2px solid #DDDDDD;
+    padding: 0.25em;
+    margin: 0.5em auto;
+}
+
+.bloco a:hover {
+    border-color: #AAAAAA #FFFFFF #FFFFFF #AAAAAA; 
+}

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Ficha 10</title>
+    <link href="estilosF10.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function ex1() {                        //Exercicio 1)
+            alert('Javascript');
+        }
+
+        function ex2() {                        //Exercicio 2)
+            var nome = document.getElementById("name").value;
+            // e. var nome = document.getElementById("input")[0].value;
+            if (nome.trim() == "")
+                alert("Digite o seu nome!")
+            else alert(nome);
+        }
+
+        function ex3_over() {
+            var nome = formulario.name;
+            // var nome=document.getElementById("name");
+
+            nome.setAttribute('style', 'background:blue , color:white;');
+            // nome.style.background="blue";
+            // nome.style.color="white";
+
+            document.getElementById("msg_copia").textContent = "O seu nome é " + nome.value + "!";   //textContent ou innerHTML
+        }
+        
+
+        function ex3_out() {
+            var nome = formulario.name;
+            nome.setAttribute('style', 'background:white;color:black;');
+            //nome.style.background="white";
+            //nome.style.color="black"
+            document.getElementById("msg_copia").textContent = "";
+        }
+    </script>
+</head>
+<body>
+    <h1>Exercício JavaScript</h1>
+    <form id="form" onsubmit="event.preventDefault();">
+        <fieldset><legend>Introdução ao Javascript</legend>
+            <button onclick="ex1()">Exercicio 1)</button>
+            <button onclick="ex2()">Exercicio 2)</button>
+            <button onmouseover="ex3_over(this.form)" onmouseout="ex3_out(this.form)">Exercicio 3)</button><br />
+            Nome: <input type="text" id="name" placeholder="Introduza o Nome" />
+            <div id="msg_copia"></div>
+        </fieldset>
+    </form>
+ 
+</body>
+</html>

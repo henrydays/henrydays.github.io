@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Informação:</legend>
+            <textarea name="descrição" rows="5" cols="100" placeholder ="Descrição do trabalho" required autofocus></textarea> <br /><br />      <!-- campo de texto -->
+            <input type="url" name="url" placeholder="URL (trabalho)" required /> <br /><br />                                                   <!-- url -->
+            <input type="text" name="date" placeholder="data defesa: dd/mm/aaaa" required /> <br /><br />                                        <!-- data da defesa -->
+            Horário pretendido: <input type="time" name="time" min="14:00" max="17:00" step="600"  required /> <br /><br />                      <!-- hora da defesa -->
+            Auto avaliação: <input type="number" name="autoaval" min="0" max="20" value="10" step="1" required /> <br /><br />                   <!-- auto avaliação-->
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados do Grupo:</legend>
+            <input type="text" name="nomeRep" placeholder="Nome do Representante do Grupo" size="90"required/> <br /><br />                      <!-- nome do rep -->
+            <input type="texr" name="telefone" placeholder="telefone" pattern="[0-9]{9}" required /> <br /><br />                                <!-- número de telefone -->
+            <input type="email" name="email" placeholder="Email" required /> <br /><br />                                                        <!-- email -->
+            Número de Elementos [1-3]: <input type="range" min="1" max="3" value="2" required /> <br /><br />                                    <!-- número de elementos -->
+        </fieldset>
+
+        <input type="reset" name="limpar" value="Limpar" />                                                                                      <!-- limpar dados -->
+        <input type="submit" value="Submeter dados" />                                                                                           <!-- submeter dados -->
+   
+    </form>
+</body>
+</html>

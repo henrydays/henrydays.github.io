@@ -146,14 +146,22 @@ body {
   background-color: #5372e8; }
   .slideshow .subtitle {
     color: white;
+<<<<<<< HEAD
     text-shadow: 2px 2px 4px #000000;
     font-size: 2em;
+=======
+    font-size: 2.5em;
+>>>>>>> b6c9c7e434f913f910f4baedf99dde0ee03670b6
     position: absolute;
     top: 200px;
     margin: auto;
     padding: 10px;
     width: 90%;
     text-align: center; }
+  .slideshow .teste2 {
+    text-shadow: 1px 0px 0px #333399,  -1px 0px 0px #333399,  0px 1px 0px #333399,  0px -1px 0px #333399; }
+  .slideshow .teste3 {
+    text-shadow: 1px 0px 0px #990099,  -1px 0px 0px #990099,  0px 1px 0px #990099,  0px -1px 0px #990099; }
   .slideshow .button {
     position: absolute;
     height: 40px;
