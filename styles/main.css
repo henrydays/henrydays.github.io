@@ -50,10 +50,6 @@ body {
   font-size: 20px;
   font-family: GothamBold; }
 
-.menu {
-  padding-right: 20px;
-  float: right; }
-
 .nav-bar {
   position: absolute;
   top: 50px;
@@ -62,6 +58,9 @@ body {
   width: 90%;
   letter-spacing: 2px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3); }
+  .nav-bar .menu {
+    padding-right: 20px;
+    float: right; }
   .nav-bar li {
     display: inline-block;
     padding: 10px 10px 10px 10px; }
@@ -71,6 +70,41 @@ body {
       .nav-bar li a:hover {
         font-weight: bold;
         color: #472e73; }
+  .nav-bar .dropdown {
+    position: relative;
+    display: inline-block; }
+  .nav-bar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1; }
+  .nav-bar .dropdown-content li {
+    width: 80%;
+    padding: 0px; }
+    .nav-bar .dropdown-content li a {
+      padding: 15px;
+      color: black;
+      text-decoration: none;
+      display: block; }
+  .nav-bar .dropdown-content a:hover {
+    color: black; }
+  .nav-bar .dropdown:hover .dropdown-content {
+    display: block; }
+  .nav-bar .nav-responsive {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: black;
+    height: 70px;
+    width: 70px; }
+  .nav-bar .nav-responsive {
+    display: none; }
+    @media screen and (max-width: 700px) {
+      .nav-bar .nav-responsive {
+        display: block; } }
 
 .slideshow {
   position: static;
@@ -222,14 +256,6 @@ body {
     padding: 0 6%;
     align-content: center; }
 
-@media only screen and (max-width: 700px) {
-  .aboutUs .smalltext {
-    width: 100%;
-    margin: 0 auto; }
-
-  .nav-bar li {
-    display: none;
-    padding: 10px 10px 10px 10px; } }
 .footer {
   color: white;
   display: flex;

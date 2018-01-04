@@ -86,16 +86,21 @@ font-family: GothamBold;
 
 }
 
-.menu
-{   
-    padding-right: 20px;
-    float: right;
-  
-}
+
  
 .nav-bar 
 {   
 
+    .menu
+    {   
+        padding-right: 20px;
+        float: right;
+        @media only screen and (max-width: 700px) 
+        {
+     
+        }
+    }
+    
     li
     {
         display: inline-block;
@@ -115,6 +120,62 @@ font-family: GothamBold;
 
         }   
     }  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+   
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content li 
+    {
+        width:80%;
+        
+        padding:0px;  
+        a{
+            padding:15px;
+            color:black;
+
+    text-decoration: none;
+    display: block;
+        }
+}
+
+.dropdown-content a:hover 
+{color:black;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+    .nav-responsive 
+    {
+      display:block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: black;
+      height: 70px;
+      width: 70px;
+    }
+    .nav-responsive
+    {
+      display:none;
+
+      @media screen and (max-width:700px)
+      {display:block;
+
+      }
+
+    }
 
     position: absolute;
     top: 50px; 
@@ -125,6 +186,8 @@ font-family: GothamBold;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);  
   
 }
+  
+
 
 .slideshow
 {
@@ -345,24 +408,6 @@ font-family: GothamBold;
 
 }
 
-@media only screen and (max-width: 700px) {
-    
-    .aboutUs .smalltext
-    {
-        width:100%;
-        margin: 0 auto;
-    }
-    .nav-bar li
-    {
-        display: none;
-        padding: 10px 10px 10px 10px;
-    }
-   .menu
-   {
-
-   }
-
-}
 
 .footer
 {
