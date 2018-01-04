@@ -17,6 +17,7 @@
     	if(!expanded)
     	   {
 			$(".nav-bar .logo").css({"width":"100%"});
+
 			$(".nav-bar .menu ").show(500);
 		
 		 $(".slideshow").animate(
@@ -39,7 +40,7 @@
 
 
    		$(".nav-bar .menu ").css({"display":"none"});
-   	
+   		$(".nav-bar .menu").css({"float":"left"});
 
 
 		 $(".slideshow .button").animate({
