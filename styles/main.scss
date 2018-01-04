@@ -124,7 +124,7 @@ font-family: GothamBold;
         padding-right: 20px;
         float: right;
 
-        @media only screen and (max-width: 1050px) 
+        @media only screen and (max-width: 1000px) 
         {
         
             display:none;
@@ -303,9 +303,23 @@ font-family: GothamBold;
 
 .aboutUs
 {
-   
+    @media only screen and (max-width:950px)
+        {   
+            .smalltext
+            {
+               min-width:90%;
+
+            }
+            .video-about
+            {
+                margin:0 auto;
+            }
+        }
+
     .smalltext
     { 
+
+
         p
         {
             margin: 10px;

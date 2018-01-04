@@ -83,7 +83,7 @@ body {
   .nav-bar .menu {
     padding-right: 20px;
     float: right; }
-    @media only screen and (max-width: 1050px) {
+    @media only screen and (max-width: 1000px) {
       .nav-bar .menu {
         display: none; }
         .nav-bar .menu li, .nav-bar .menu div {
@@ -186,6 +186,11 @@ body {
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center; }
+  @media only screen and (max-width: 950px) {
+    .aboutUs .smalltext {
+      min-width: 90%; }
+    .aboutUs .video-about {
+      margin: 0 auto; } }
   .aboutUs .smalltext {
     text-align: justify;
     line-height: 130%;
