@@ -424,5 +424,25 @@ body {
 
   header {
     padding: 0; } }
+.speakers {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px; }
+  .speakers .speaker {
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px; }
+  .speakers .name {
+    font-family: GothamBold;
+    padding-top: 10px;
+    text-align: center; }
+  .speakers .position {
+    padding-top: 5px;
+    text-align: center; }
+  .speakers .company {
+    padding-top: 5px;
+    text-align: center;
+    color: #5372e8; }
 
 /*# sourceMappingURL=main.css.map */
