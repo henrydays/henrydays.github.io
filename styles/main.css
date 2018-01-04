@@ -388,7 +388,7 @@ body {
     padding: 40px;
     width: 50%;
     background-color: white; }
-  .about-conf .history {
+  .about-conf .timeline {
     width: 50%;
     background-color: #edeced; }
 
@@ -397,7 +397,7 @@ body {
   .lastyear h1 {
     text-align: center;
     color: white;
-    padding-top: 20px; }
+    padding-top: 30px; }
   .lastyear .gallery {
     padding: .5vw;
     font-size: 0;
