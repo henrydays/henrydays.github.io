@@ -298,7 +298,7 @@ body {
       .contentSponsors .sponsor img {
         padding-left: 25%; } }
   .contentSponsors .sponsor {
-    padding: 0 5%;
+    padding: 0 6%;
     align-content: center; }
 
 .footer {
@@ -308,7 +308,7 @@ body {
   background-color: #50484b; }
   .footer .about {
     padding-top: 75px;
-    padding-left: 20px;
+    padding-left: 30px;
     width: 40%;
     min-width: 300px; }
     .footer .about .logo {
@@ -323,7 +323,7 @@ body {
       font-size: 13px;
       line-height: 150%; }
     .footer .about .rights {
-      padding-left: 30px; }
+      padding-left: 40px; }
   .footer .sitemap {
     padding: 40px;
     width: 20%; }
