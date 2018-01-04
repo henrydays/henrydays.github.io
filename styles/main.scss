@@ -124,14 +124,14 @@ font-family: GothamBold;
         padding-right: 20px;
         float: right;
 
-        @media only screen and (max-width: 1150px) 
+        @media only screen and (max-width: 1000px) 
         {
         
             display:none;
 
             li, div
             {   
-                
+
                 width:100%;
                 
             }
