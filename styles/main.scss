@@ -205,6 +205,7 @@ font-family: GothamBold;
 
     }
 
+    
     .nav-responsive 
     {
       display:block;
@@ -246,15 +247,33 @@ font-family: GothamBold;
     .subtitle
     {
         color: white;
-        font-size: 2em;
+        font-size: 2.5em;
         position: absolute;
         top:200px;
         margin: auto;
         padding: 7px;
         width: 90%;
         text-align: center;
+
     }
 
+    .teste2
+    {  
+        text-shadow: 1px 0px 0px #333399, 
+                 -1px 0px 0px #333399, 
+                 0px 1px 0px #333399, 
+                 0px -1px 0px #333399;
+
+    }
+
+    .teste3
+    {
+        text-shadow: 1px 0px 0px #990099, 
+                 -1px 0px 0px #990099, 
+                 0px 1px 0px #990099, 
+                 0px -1px 0px #990099;
+    }
+    
    .button 
     {
         position: absolute;
