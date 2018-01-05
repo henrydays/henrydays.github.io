@@ -382,6 +382,7 @@ body {
     width: 85%;
     height: 200px; }
 
+<<<<<<< HEAD
 .about-conf {
   background-color: white;
   display: flex; }
@@ -397,6 +398,19 @@ body {
     padding: 60px; }
     .about-conf .history img {
       width: 60%; }
+=======
+.about-conf p {
+  font-family: NewFontThin; }
+.about-conf .info {
+  padding: 40px;
+  width: 50%;
+  background-color: white; }
+.about-conf .history {
+  width: 50%;
+  background-color: white; }
+  .about-conf .history img {
+    width: 60%; }
+>>>>>>> 030e8824479766e101773d610c68034162053809
 
 .lastyear {
   background-color: #edeced; }
