@@ -7,6 +7,12 @@
     <title>Program_CC2018</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+ 
+
 </head>
 
 
@@ -56,7 +62,7 @@
             <div class="slide">
               <img class="slide-img" src="styles/imgs/home11.jpg" style="width:100%;">
               <div class="subtitle">
-              Member Area - Login
+             
               </div>
             </div>
             
@@ -65,21 +71,24 @@
     </div>
 <div class="form-login">
   <div class="form-div">
-    <div class="form-title">Login</div>
+    <div class="form-title">Member Area</div>
 
 <form name="sub">
+
   <div class="pre-input">Name</div>
-  <input type="text" name="user"><br>
+  <input id="name" type="text" name="user"><br>
+
   <div class="pre-input">Password</div>
-  <input type="password" name="password"><br>
+  <input id="password" type="password" name="password"><br>
 
 
-<button id="submit">submit</button>
+
 </form>
+ 
+  <button id="submit">Login</button> or <a href="signup.html">Register.</a>
 
+      </div>
   </div>
-</div>
-    
 
 <div class="contentSponsors">
     <div class="sponsor"><img src="styles/imgs/sponsors/BCS.png" alt=""></div>
@@ -139,34 +148,29 @@
 </html>
 
 <script>
-    
-  
-// to remove from global namespace
-(function() {
-    
-    // onclick vs. onchange
-    var contact = document.forms['sub'].elements['contact'];
 
-    for (var i=0, len=contact.length; i<len; i++) {
-        contact[i].onclick = function() {
-           if(this.value=="other")
-           {
-           document.getElementById("text-area").style.display = "block";
-          }
-          else{
-            document.getElementById("text-area").style.display = "none";
-          }
+  var username="tweb";
+  var password="pass123"
 
-          
-        };   
-    }
-    // disable submission of all forms on this page
-    for (var i=0, len=document.forms.length; i<len; i++) {
-        document.forms[i].onsubmit = function() { return false; };
-    }    
-    
+ $(document).ready(function() {
 
-}());
+            $("#submit").click(function(){
+
+              
+              if($('#name').val()==username && $('#password').val()==password)
+              {        
+               $(".form-title").css({"background-color":"green"});
+            
+              window.location.href = "sucess.html";
+              } 
+              else
+              {
+               $(".form-title").css({"background-color":"red"});
+              }
+
+            });
+        
+         });
 
    
     </script>
