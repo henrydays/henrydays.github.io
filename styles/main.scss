@@ -268,33 +268,6 @@ color: white;
         text-align: center;
 
     }
-
-    .teste1
-    {  
-        text-shadow: 1px 0px 0px #808080, 
-                 -1px 0px 0px #808080, 
-                 0px 1px 0px #808080, 
-                 0px -1px 0px #808080;
-
-    }
-
-    .teste2
-    {  
-        text-shadow: 1px 0px 0px #333399, 
-                 -1px 0px 0px #333399, 
-                 0px 1px 0px #333399, 
-                 0px -1px 0px #333399;
-
-    }
-
-    .teste3
-    {
-        text-shadow: 1px 0px 0px #990099, 
-                 -1px 0px 0px #990099, 
-                 0px 1px 0px #990099, 
-                 0px -1px 0px #990099;
-
-    }
     
    .button 
     {
@@ -987,3 +960,37 @@ color: white;
         }
   }  
 }
+.page-header    {
+    position: static;
+    color: black;
+    font-size: 30px;
+    font-family: GothamBold;
+    font-size: 1em;
+    width: 100%;
+    height:150px;
+    background-color: #5372e8;
+    .subtitle
+    {
+        width:90%;
+        position:absolute;
+        top:130px;
+        h1
+        {
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+            color:white;
+        text-align:center;
+        }
+        
+    }
+       img
+       {
+         resize: both;
+        background-size: contain;
+        width: 100%;
+         height:150px;
+        object-fit: cover;
+       }
+    }
