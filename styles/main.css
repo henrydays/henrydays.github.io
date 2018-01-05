@@ -492,7 +492,13 @@ body {
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px; }
+<<<<<<< HEAD
     .about-conf .form-articles .form-div .form-title {
+=======
+    .form-articles .form-div #text-area {
+      display: none; }
+    .form-articles .form-div .form-title {
+>>>>>>> da296d81e0a2f52796995c36f0f9f5779b0f7f4b
       padding: 20px;
       font-family: GothamBold;
       font-size: 20px;

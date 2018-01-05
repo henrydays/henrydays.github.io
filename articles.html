@@ -67,7 +67,7 @@
   <div class="form-div">
     <div class="form-title">Articles Submission</div>
 
-<form>
+<form name="sub">
   Name:<br>
   <input type="text" name="name"><br>
 
@@ -91,7 +91,8 @@ Contact motiviation
   <input type="radio" name="contact" value="register">Register<br>
   <input type="radio" name="contact" value="other"> Other<br>
 
-<textarea rows="4" cols="50"></textarea >
+<textarea id="text-area" rows="4" cols="50"></textarea >
+<button id="submit">submit</button>
 </form>
 
   </div>
@@ -181,5 +182,34 @@ Contact motiviation
       }
       slides[slideIndex-1].style.display = "block";  
     }
+
+// to remove from global namespace
+(function() {
+    
+    // onclick vs. onchange
+    var contact = document.forms['sub'].elements['contact'];
+
+    for (var i=0, len=contact.length; i<len; i++) {
+        contact[i].onclick = function() {
+           if(this.value=="other")
+           {
+           document.getElementById("text-area").style.display = "block";
+          }
+          else{
+            document.getElementById("text-area").style.display = "none";
+          }
+
+          
+        };
+     
+    }
+    // disable submission of all forms on this page
+    for (var i=0, len=document.forms.length; i<len; i++) {
+        document.forms[i].onsubmit = function() { return false; };
+    }    
+    
+
+}());
+
    
     </script>
