@@ -547,7 +547,7 @@ body {
       text-decoration: none;
       color: #00a4ef; }
     .form-login .form-div #submit {
-      background-color: #00a4ef;
+      background-color: #393c44;
       width: 150px;
       height: 40px;
       border-style: solid transparent;
@@ -559,7 +559,7 @@ body {
       margin-bottom: 40px; }
     .form-login .form-div .form-title {
       font-family: NewFontThin;
-      background-color: #00a4ef;
+      background-color: #393c44;
       padding: 20px;
       font-family: GothamBold;
       font-size: 20px;
