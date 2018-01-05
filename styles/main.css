@@ -398,11 +398,11 @@ body {
     height: auto; }
 
 .lastyear {
-  background-color: #50484b; }
+  background-color: #edeced; }
   .lastyear h1 {
     text-align: center;
-    color: white;
-    padding-top: 30px; }
+    padding-top: 30px;
+    margin-top: 0; }
   .lastyear .gallery {
     padding: .5vw;
     font-size: 0;
@@ -454,9 +454,10 @@ body {
   display: flex;
   background-color: red;
   width: 100%;
-  background-color: #edeced;
-  height: 400px; }
+  background-color: #edeced; }
   .schedule .calendar {
+    background-color: white;
+    margin: 20px;
     width: 40%; }
   .schedule .talks {
     width: 60%;
