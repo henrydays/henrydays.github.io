@@ -382,28 +382,26 @@ body {
     width: 85%;
     height: 200px; }
 
-.about-conf .info {
-  padding: 40px;
-  width: 60%;
-  background-color: white; }
-  .about-conf .info h4 {
-    font-size: 17px; }
-  .about-conf .info p {
-    font-family: NewFontThin;
-    font-size: 16px;
-    font-weight: bold; }
-.about-conf .history {
-  width: 40%;
-  background-color: white;
+.about-conf {
   background-color: white;
   display: flex; }
-.about-conf .lastyear {
+  .about-conf p {
+    font-family: NewFontThin; }
+  .about-conf .info {
+    padding: 40px;
+    width: 60%;
+    background-color: white; }
+  .about-conf .history {
+    width: 40%;
+    background-color: white; }
+
+.lastyear {
   background-color: #edeced; }
-  .about-conf .lastyear h1 {
+  .lastyear h1 {
     text-align: center;
     padding-top: 30px;
     margin-top: 0; }
-  .about-conf .lastyear .gallery {
+  .lastyear .gallery {
     padding: .5vw;
     font-size: 0;
     display: -ms-flexbox;
@@ -413,92 +411,89 @@ body {
     flex-flow: row wrap;
     display: -webkit-box;
     display: flex; }
-    .about-conf .lastyear .gallery div {
+    .lastyear .gallery div {
       -webkit-box-flex: auto;
       -ms-flex: auto;
       flex: auto;
       width: 200px;
       margin: .5vw; }
-      .about-conf .lastyear .gallery div img {
+      .lastyear .gallery div img {
         width: 100%;
         height: auto; }
+
 @media screen and (max-width: 400px) {
-  .about-conf header div {
+  header div {
     margin: 0; }
-  .about-conf header {
+
+  header {
     padding: 0; } }
-.about-conf .speakers {
+.speakers {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px;
-  left: 10px; }
-  .about-conf .speakers .speaker {
+  margin: 10px; }
+  .speakers .speaker {
     width: 200px;
     background-color: white;
     padding: 20px;
     margin: 20px; }
-  .about-conf .speakers .name {
+  .speakers .name {
     font-family: GothamBold;
     padding-top: 10px;
     text-align: center; }
-  .about-conf .speakers .position {
+  .speakers .position {
     padding-top: 5px;
     text-align: center; }
-  .about-conf .speakers .company {
+  .speakers .company {
     padding-top: 5px;
     text-align: center;
     color: #5372e8; }
-.about-conf .schedule {
+
+.schedule {
   display: flex;
   background-color: red;
   width: 100%;
   background-color: #edeced; }
-  .about-conf .schedule .calendar {
+  .schedule .calendar {
     background-color: white;
     margin: 20px;
     width: 40%; }
-  .about-conf .schedule .talks {
+  .schedule .talks {
     width: 60%;
     display: flex;
     flex-wrap: wrap; }
-    .about-conf .schedule .talks .talk {
+    .schedule .talks .talk {
       margin: 20px;
       width: 100%;
       background-color: white;
       border-left: 1px solid red;
       padding: 30px;
       display: flex; }
-      .about-conf .schedule .talks .talk .time {
+      .schedule .talks .talk .time {
         width: 30%; }
-        .about-conf .schedule .talks .talk .time .hour {
+        .schedule .talks .talk .time .hour {
           padding-top: 10px;
           font-family: GothamBold;
           font-size: 30px; }
-      .about-conf .schedule .talks .talk .desc {
+      .schedule .talks .talk .desc {
         width: 70%; }
-        .about-conf .schedule .talks .talk .desc .title {
+        .schedule .talks .talk .desc .title {
           font-family: GothamBold;
           font-size: 20px; }
-        .about-conf .schedule .talks .talk .desc .description {
+        .schedule .talks .talk .desc .description {
           padding-top: 10px;
           text-justify: justify; }
-.about-conf .form-articles {
+
+.form-articles {
   background-color: #edeced;
   width: 100%;
   display: flex; }
-  .about-conf .form-articles .form-div {
+  .form-articles .form-div {
     margin: 0 auto;
     width: 50%;
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px; }
-<<<<<<< HEAD
-    .about-conf .form-articles .form-div .form-title {
-=======
-    .form-articles .form-div #text-area {
-      display: none; }
     .form-articles .form-div .form-title {
->>>>>>> da296d81e0a2f52796995c36f0f9f5779b0f7f4b
       padding: 20px;
       font-family: GothamBold;
       font-size: 20px;
