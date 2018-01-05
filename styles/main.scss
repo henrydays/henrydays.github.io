@@ -781,13 +781,20 @@ color: white;
 
 .schedule
 {
+    display:flex;
     background-color:red;
     width:100%;
     background-color:#edeced;
     height:400px;
     
-    .talks
+    .calendar
     {
+
+        width:40%;
+    }
+    .talks
+    {   
+        width:60%;
         display:flex;
         flex-wrap:wrap;
 
@@ -800,15 +807,20 @@ color: white;
             border-left: 1px solid red;
 
             padding:30px;
-
+            
+            display:flex;
             .time
             {
+                width:30%;
                 .day
                 {
 
                 }
                 .hour
                 {
+                    padding-top:10px;
+                    font-family: GothamBold;
+                    font-size:30px;
 
                 }
                 .location
@@ -817,13 +829,21 @@ color: white;
                 }
 
             }
-            .title
-            {
+            .desc
+            {   
+                width:70%;
+                .title
+                {
+                    font-family:GothamBold;
+                    font-size:20px;
+                }
+                .description
+                {
+                    padding-top:10px;
+                    text-justify: justify;
 
-            }
-            .description
-            {
 
+                }
             }
 
         }

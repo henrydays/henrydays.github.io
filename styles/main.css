@@ -450,11 +450,15 @@ body {
     color: #5372e8; }
 
 .schedule {
+  display: flex;
   background-color: red;
   width: 100%;
   background-color: #edeced;
   height: 400px; }
+  .schedule .calendar {
+    width: 40%; }
   .schedule .talks {
+    width: 60%;
     display: flex;
     flex-wrap: wrap; }
     .schedule .talks .talk {
@@ -462,6 +466,21 @@ body {
       width: 100%;
       background-color: white;
       border-left: 1px solid red;
-      padding: 30px; }
+      padding: 30px;
+      display: flex; }
+      .schedule .talks .talk .time {
+        width: 30%; }
+        .schedule .talks .talk .time .hour {
+          padding-top: 10px;
+          font-family: GothamBold;
+          font-size: 30px; }
+      .schedule .talks .talk .desc {
+        width: 70%; }
+        .schedule .talks .talk .desc .title {
+          font-family: GothamBold;
+          font-size: 20px; }
+        .schedule .talks .talk .desc .description {
+          padding-top: 10px;
+          text-justify: justify; }
 
 /*# sourceMappingURL=main.css.map */
