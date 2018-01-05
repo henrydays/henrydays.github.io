@@ -859,3 +859,28 @@ color: white;
     }
 
 }
+
+.form-articles
+{
+    .form-div
+    {
+        margin:0 auto;
+        width:50%;
+        background-color:white;
+        margin-top:50px;
+        margin-bottom:50px;
+
+        .form-title
+        {
+            padding:20px;
+            font-family:GothamBold;
+            font-size:20px;
+            text-align:center;
+        }
+    }
+
+
+    background-color:#edeced;
+    width:100%;
+    display:flex;
+}
