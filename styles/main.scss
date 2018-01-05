@@ -702,16 +702,16 @@ color: white;
 }
 .lastyear
 {
-    background-color:#50484b;
+    background-color:#edeced;;
+    
     h1
     {
         text-align: center;
-        color:white;
         padding-top: 30px;
+        margin-top:0;
     }
 .gallery 
 { 
-
 
     
     padding: .5vw;
@@ -747,10 +747,13 @@ color: white;
 }
 
 .speakers
-{
+{   
+    
     display:flex;
     flex-wrap:wrap;
     margin:10px;
+  
+
     .speaker
     {
         width:200px;
@@ -785,11 +788,12 @@ color: white;
     background-color:red;
     width:100%;
     background-color:#edeced;
-    height:400px;
+    
     
     .calendar
     {
-
+        background-color:white;
+        margin:20px;    
         width:40%;
     }
     .talks
