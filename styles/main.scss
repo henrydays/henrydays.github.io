@@ -672,41 +672,35 @@ color: white;
 }
 
 .about-conf
-{
-    h1
-    {
-
-    }
+{     
     
-    p
-    {
-        font-family:NewFontThin;
-
-    }
     .info
     {   
         padding:40px;
         width:60%;
         background-color:white;
+
+        h4
+        {
+            font-size: 17px;
+        }
+
+        p
+        {
+        font-family:NewFontThin;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
     }
 
     .history
     { 
         width:40%;
         background-color:white;
-<<<<<<< HEAD
-=======
-       
-        
->>>>>>> eddfb7276aed509a8d14054b2470386deaa63223
-    }
-        
+
     background-color:white;
     display:flex;
-
-    
-
-
 }
 .lastyear
 {
@@ -887,4 +881,4 @@ color: white;
     background-color:#edeced;
     width:100%;
     display:flex;
-}
+}}
