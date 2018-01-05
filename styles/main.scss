@@ -864,7 +864,12 @@ color: white;
 {
     .form-div
     {
-               margin:0 auto;
+        
+        #text-area
+        {
+            display:none;
+        }
+        margin:0 auto;
         width:50%;
         background-color:white;
         margin-top:50px;

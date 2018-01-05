@@ -493,6 +493,8 @@ body {
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px; }
+    .form-articles .form-div #text-area {
+      display: none; }
     .form-articles .form-div .form-title {
       padding: 20px;
       font-family: GothamBold;
