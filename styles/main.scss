@@ -897,16 +897,39 @@ color: white;
     display:flex;
     
     .form-div
-    
-       
+   
      {
-
-        
-         margin:0 auto;
-        width:40%;
+        margin:0 auto;
+        width:35%;
+        min-width:330px;
         background-color:white;
         margin-top:50px;
         margin-bottom:50px;
+        .pre-input
+        {
+        padding-top:40px;
+        padding-left: 50px;
+        }
+
+        input[type=text] ,input[type=password]
+        {
+            margin-left:50px;
+            width:300px;
+            height:30px;
+            padding-left:30px;
+        }
+
+        #submit
+        {
+            background-color:#00a4ef;
+            width:150px;
+            height:40px; 
+            border-style: solid transparent;
+            margin-left:50px;margin-top:40px;
+            color:white;
+            font-family:GothamBold;
+            font-size:15px;
+        }
 
   
           .form-title
