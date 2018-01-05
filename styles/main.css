@@ -439,6 +439,11 @@ body {
     background-color: white;
     padding: 20px;
     margin: 20px; }
+    .speakers .speaker:hover {
+      transform: scale(1.02);
+      /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      -webkit-box-shadow: 0 0 10px black;
+      box-shadow: 0 0 10px black; }
   .speakers .name {
     font-family: GothamBold;
     padding-top: 10px;
