@@ -813,11 +813,15 @@ color: white;
             width:100%;
             background-color:white;
 
-            border-left: 1px solid red;
+            border-left: 2px solid black;
 
             padding:30px;
             
             display:flex;
+            &:hover
+            {
+               border-left: 5px solid #5372e8; 
+            }
             .time
             {
                 width:30%;
