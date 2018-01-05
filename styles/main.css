@@ -382,6 +382,17 @@ body {
     width: 85%;
     height: 200px; }
 
+<<<<<<< HEAD
+.about-conf p {
+  font-family: NewFontThin; }
+.about-conf .info {
+  padding: 40px;
+  width: 50%;
+  background-color: white; }
+.about-conf .history {
+  width: 50%;
+  background-color: white; }
+=======
 .about-conf {
   background-color: white;
   display: flex; }
@@ -394,6 +405,7 @@ body {
   .about-conf .history {
     width: 40%;
     background-color: white; }
+>>>>>>> eddfb7276aed509a8d14054b2470386deaa63223
 
 .lastyear {
   background-color: #edeced; }
@@ -430,7 +442,8 @@ body {
 .speakers {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px; }
+  margin: 10px;
+  left: 10px; }
   .speakers .speaker {
     width: 200px;
     background-color: white;
