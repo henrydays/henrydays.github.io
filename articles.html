@@ -48,48 +48,43 @@
 
 <div class="wrapper">
 <div class="getTicketsTop"><h3>10-12 July 2018 London, United Kingdom  <a href="tickets.html">Tickets!</a></h3></div> </div>
-    <div class="slideshow">
-   
-        <div class="display-slide">
-  
-            <div class="slide">
-              <img class="slide-img" src="styles/imgs/submit1.jpg" style="width:100%;">
-              <div class="subtitle teste2">
-               'Articles Submission'
+    <div class="page-header">
+              <img  src="styles/imgs/submit1.jpg" style="width:100%;">
+              <div class="subtitle ">
+               <h1>Event Schedule and Speakers</h1>
               </div>
-            </div>
-            
-
-            </div>
-    </div>
+              </div>
 <div class="form-articles">
   <div class="form-div">
     <div class="form-title">Articles Submission</div>
 
-<form name="sub">
-  Name:<br>
-  <input type="text" name="name"><br>
-
-  <input type="radio" name="gender" value="male"> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other<br>
-BI:
+    <form name="sub">
+    <h4>Name</h4>
+    <input type="text" name="name"><br>
+  <h4>Gender</h4>
+  <div class="radio">
+    <input type="radio" name="gender" value="male"> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="radio" name="gender" value="other"> Other<br>
+  </div>
+  <h4>National Id</h4>
   <input type="text" name="bi"><br>
-
-Age:
+  
+  <h4>Age</h4>
   <input type="text" name="age"><br>
 
- Email:
+<h4>Email</h4>
+  <input type="email" name="email"><br>
+
+<h4>Adress</h4>
   <input type="text" name="email"><br>
 
-Adress:
-  <input type="text" name="email"><br>
-
-Contact motiviation
+<h4>Contact Motivation</h4>
+<div class="radio">
 <input type="radio" name="contact" value="submission"> submissão de artigos<br>
   <input type="radio" name="contact" value="register">Register<br>
   <input type="radio" name="contact" value="other"> Other<br>
-
+</div>
 <textarea id="text-area" rows="4" cols="50"></textarea >
 <button id="submit">submit</button>
 </form>

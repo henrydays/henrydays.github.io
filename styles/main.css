@@ -152,7 +152,7 @@ body {
   background-color: #5372e8; }
   .slideshow .subtitle {
     color: white;
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 1px 1px 2px black, 0 0 45px black, 0 0 45px black;
     font-size: 2.7em;
     position: absolute;
     top: 200px;
@@ -504,13 +504,26 @@ body {
   display: flex; }
   .form-articles .form-div {
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px; }
+    .form-articles .form-div h4 {
+      font-family: GothamBold;
+      margin: 0;
+      padding-top: 20px;
+      padding-left: 50px; }
+    .form-articles .form-div input:not([type=checkbox]):not([type=radio]) {
+      margin-left: 50px;
+      width: 300px;
+      height: 30px; }
+    .form-articles .form-div .radio {
+      padding-left: 70px; }
     .form-articles .form-div #text-area {
       display: none; }
     .form-articles .form-div .form-title {
+      background-color: #032240;
+      color: white;
       padding: 20px;
       font-family: GothamBold;
       font-size: 20px;
@@ -574,7 +587,7 @@ body {
     top: 130px; }
     .page-header .subtitle h1 {
       color: white;
-      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      text-shadow: 1px 1px 2px black, 0 0 45px black, 0 0 45px black;
       color: white;
       text-align: center; }
   .page-header img {

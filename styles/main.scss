@@ -258,7 +258,7 @@ color: white;
     .subtitle
     {
         color: white;
-        text-shadow: 2px 2px 4px #000000;
+         text-shadow: 1px 1px 2px black, 0 0 45px black, 0 0 45px black;
         font-size: 2.7em;
         position: absolute;
         top:200px;
@@ -871,19 +871,41 @@ color: white;
 {
     .form-div
     {
-        
+        h4
+        {
+            font-family:GothamBold;
+            margin:0;
+            padding-top: 20px;
+            padding-left:50px;
+
+        }
+        input:not([type=checkbox]):not([type=radio])
+        {
+            margin-left:50px;
+            width:300px;
+            height:30px;
+        }
+
+
+        .radio
+        {
+
+            padding-left:70px;
+        }
         #text-area
         {
             display:none;
         }
         margin:0 auto;
-        width:50%;
+        width:40%;
         background-color:white;
         margin-top:50px;
         margin-bottom:50px;
 
         .form-title
-        {
+        {   
+            background-color: #032240;
+            color:white;
             padding:20px;
             font-family:GothamBold;
             font-size:20px;
@@ -978,7 +1000,7 @@ color: white;
         {
 
     color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 45px black, 0 0 45px black;
 
             color:white;
         text-align:center;
