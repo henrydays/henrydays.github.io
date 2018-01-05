@@ -382,6 +382,7 @@ body {
     width: 85%;
     height: 200px; }
 
+<<<<<<< HEAD
 .about-conf p {
   font-family: NewFontThin; }
 .about-conf .info {
@@ -391,6 +392,20 @@ body {
 .about-conf .history {
   width: 50%;
   background-color: white; }
+=======
+.about-conf {
+  background-color: white;
+  display: flex; }
+  .about-conf p {
+    font-family: NewFontThin; }
+  .about-conf .info {
+    padding: 40px;
+    width: 60%;
+    background-color: white; }
+  .about-conf .history {
+    width: 40%;
+    background-color: white; }
+>>>>>>> eddfb7276aed509a8d14054b2470386deaa63223
 
 .lastyear {
   background-color: #edeced; }
@@ -480,5 +495,21 @@ body {
         .schedule .talks .talk .desc .description {
           padding-top: 10px;
           text-justify: justify; }
+
+.form-articles {
+  background-color: #edeced;
+  width: 100%;
+  display: flex; }
+  .form-articles .form-div {
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .form-articles .form-div .form-title {
+      padding: 20px;
+      font-family: GothamBold;
+      font-size: 20px;
+      text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

@@ -686,15 +686,26 @@ color: white;
     .info
     {   
         padding:40px;
-        width:50%;
+        width:60%;
         background-color:white;
     }
 
     .history
     { 
-        width:50%;
+        width:40%;
         background-color:white;
+<<<<<<< HEAD
+=======
+       
+        
+>>>>>>> eddfb7276aed509a8d14054b2470386deaa63223
     }
+        
+    background-color:white;
+    display:flex;
+
+    
+
 
 }
 .lastyear
@@ -851,4 +862,29 @@ color: white;
         }
     }
 
+}
+
+.form-articles
+{
+    .form-div
+    {
+        margin:0 auto;
+        width:50%;
+        background-color:white;
+        margin-top:50px;
+        margin-bottom:50px;
+
+        .form-title
+        {
+            padding:20px;
+            font-family:GothamBold;
+            font-size:20px;
+            text-align:center;
+        }
+    }
+
+
+    background-color:#edeced;
+    width:100%;
+    display:flex;
 }
