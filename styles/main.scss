@@ -686,19 +686,22 @@ color: white;
     .info
     {   
         padding:40px;
-        width:50%;
+        width:60%;
         background-color:white;
     
     }
     .history
     { 
-        width:50%;
+        width:40%;
         background-color:white;
-    }
-.img1
+        padding:60px;
+        img
         {
-          height: auto;
+            width:60%;
+            
         }
+    }
+        
     background-color:white;
     display:flex;
 }

@@ -389,13 +389,14 @@ body {
     font-family: NewFontThin; }
   .about-conf .info {
     padding: 40px;
-    width: 50%;
+    width: 60%;
     background-color: white; }
   .about-conf .history {
-    width: 50%;
-    background-color: white; }
-  .about-conf .img1 {
-    height: auto; }
+    width: 40%;
+    background-color: white;
+    padding: 60px; }
+    .about-conf .history img {
+      width: 60%; }
 
 .lastyear {
   background-color: #edeced; }
