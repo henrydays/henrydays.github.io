@@ -507,14 +507,17 @@ body {
   display: flex; }
   .form-login .form-div {
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px; }
-    .form-login .form-div .title {
+    .form-login .form-div .form-title {
+      font-family: NewFontThin;
+      background-color: #00a4ef;
       padding: 20px;
       font-family: GothamBold;
       font-size: 20px;
-      text-align: center; }
+      text-align: center;
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */
