@@ -950,7 +950,7 @@ color: white;
     background-color:#edeced;
     width:100%;
     display:flex;
-    border-bottom-right-radius: 15%;
+
 
 
     .form-div
@@ -1040,5 +1040,73 @@ color: white;
         width: 100%;
          height:150px;
         object-fit: cover;
+
        }
+}
+
+.info
+{
+    h1{
+        margin:0px;
+        padding:40px;
+
+
     }
+    width:100%;
+    height:500px;
+}
+
+.ticketPrices
+{
+    display:flex;
+    margin-left:20px;
+    margin-right: 20px;
+
+    .ticket
+    {
+        .desc
+        {
+            h3
+            {
+                font-family:GothamBold
+            }
+            padding-left:20px;
+
+        }
+        .title
+        {
+            background-color:#90a53c;
+          font-family:GothamBold;
+            text-align:center;
+            padding:15px;
+            color:white;
+            font-size:20;
+
+        }
+        button
+        {
+            background-color:#90a53c;
+            height:50px;
+            width:100px;
+            color:white;
+            font-family:GothamBold;
+            font-size:15px;
+            border-radius:50px;
+            margin-left:30%;
+        }
+        margin:20px;
+        width:33.333%;
+        background-color:#edeced;
+      
+
+    }
+    .ticket:nth-child(1), .ticket:nth-child(3)
+        {
+            margin-top:60px;
+        }
+
+    .ticket:nth-child(2){
+        height:390px;        
+    }
+
+}

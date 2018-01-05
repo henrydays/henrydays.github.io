@@ -549,8 +549,7 @@ body {
 .form-login {
   background-color: #edeced;
   width: 100%;
-  display: flex;
-  border-bottom-right-radius: 15%; }
+  display: flex; }
   .form-login .form-div {
     margin: 0 auto;
     width: 35%;
@@ -613,5 +612,45 @@ body {
     width: 100%;
     height: 150px;
     object-fit: cover; }
+
+.info {
+  width: 100%;
+  height: 500px; }
+  .info h1 {
+    margin: 0px;
+    padding: 40px; }
+
+.ticketPrices {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px; }
+  .ticketPrices .ticket {
+    margin: 20px;
+    width: 33.333%;
+    background-color: #edeced; }
+    .ticketPrices .ticket .desc {
+      padding-left: 20px; }
+      .ticketPrices .ticket .desc h3 {
+        font-family: GothamBold; }
+    .ticketPrices .ticket .title {
+      background-color: #90a53c;
+      font-family: GothamBold;
+      text-align: center;
+      padding: 15px;
+      color: white;
+      font-size: 20; }
+    .ticketPrices .ticket button {
+      background-color: #90a53c;
+      height: 50px;
+      width: 100px;
+      color: white;
+      font-family: GothamBold;
+      font-size: 15px;
+      border-radius: 50px;
+      margin-left: 30%; }
+  .ticketPrices .ticket:nth-child(1), .ticketPrices .ticket:nth-child(3) {
+    margin-top: 60px; }
+  .ticketPrices .ticket:nth-child(2) {
+    height: 390px; }
 
 /*# sourceMappingURL=main.css.map */
