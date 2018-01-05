@@ -389,11 +389,14 @@ body {
     font-family: NewFontThin; }
   .about-conf .info {
     padding: 40px;
-    width: 60%;
+    width: 50%;
     background-color: white; }
   .about-conf .history {
     width: 40%;
     background-color: white; }
+    .about-conf .history img {
+      padding-top: 55px;
+      width: 100%; }
 
 .lastyear {
   background-color: #edeced; }
@@ -454,9 +457,20 @@ body {
   width: 100%;
   background-color: #edeced; }
   .schedule .calendar {
-    background-color: white;
+    background-color: #edeced;
     margin: 20px;
-    width: 40%; }
+    width: 40%;
+    display: block; }
+    .schedule .calendar .normal_calendar {
+      font-size: 10em;
+      padding: 50px;
+      padding-top: 30px;
+      text-align: center; }
+    .schedule .calendar .check_calendar {
+      font-size: 10em;
+      padding: 50px;
+      padding-top: 20px;
+      text-align: center; }
   .schedule .talks {
     width: 60%;
     display: flex;

@@ -686,7 +686,7 @@ color: white;
     .info
     {   
         padding:40px;
-        width:60%;
+        width:50%;
         background-color:white;
     
     }
@@ -694,7 +694,12 @@ color: white;
     { 
         width:40%;
         background-color:white;
-       
+        
+        img
+        {
+            padding-top: 55px;
+            width: 100%;
+        }
         
     }
         
@@ -797,9 +802,27 @@ color: white;
     
     .calendar
     {
-        background-color:white;
+        background-color:#edeced;
         margin:20px;    
         width:40%;
+        display: block;
+
+        .normal_calendar
+        {
+            font-size: 10em;
+            padding: 50px;
+            padding-top: 30px;
+            text-align: center;
+
+        }
+        .check_calendar
+        {
+            font-size: 10em;
+            padding: 50px;
+            padding-top: 20px;
+            text-align: center;
+            
+        }
     }
     .talks
     {   
