@@ -382,20 +382,17 @@ body {
     width: 85%;
     height: 200px; }
 
-.about-conf {
-  background-color: white;
-  display: flex; }
-  .about-conf p {
-    font-family: NewFontThin; }
-  .about-conf .info {
-    padding: 40px;
-    width: 50%;
-    background-color: white; }
-  .about-conf .history {
-    width: 50%;
-    background-color: white; }
-  .about-conf .img1 {
-    height: auto; }
+.about-conf p {
+  font-family: NewFontThin; }
+.about-conf .info {
+  padding: 40px;
+  width: 50%;
+  background-color: white; }
+.about-conf .history {
+  width: 50%;
+  background-color: white; }
+  .about-conf .history img {
+    width: 60%; }
 
 .lastyear {
   background-color: #edeced; }
