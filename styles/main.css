@@ -383,7 +383,7 @@ body {
     height: 200px; }
 
 .about-conf {
-  background-color: #edeced;
+  background-color: white;
   display: flex; }
   .about-conf p {
     font-family: NewFontThin; }
@@ -393,7 +393,9 @@ body {
     background-color: white; }
   .about-conf .history {
     width: 50%;
-    background-color: #edeced; }
+    background-color: white; }
+  .about-conf .img1 {
+    height: auto; }
 
 .lastyear {
   background-color: #50484b; }
