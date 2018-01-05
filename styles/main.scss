@@ -882,7 +882,7 @@ color: white;
         input:not([type=checkbox]):not([type=radio])
         {
             margin-left:50px;
-            width:300px;
+            width:78%;
             height:30px;
         }
 
@@ -894,7 +894,16 @@ color: white;
         }
         #text-area
         {
+            h4
+            {
+               padding:0;
+            }
+            margin-left:50px;
             display:none;
+            width:90%;
+          margin-top:20px;
+          margin-bottom:20px;
+
         }
         margin:0 auto;
         width:40%;

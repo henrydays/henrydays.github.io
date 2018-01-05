@@ -515,12 +515,18 @@ body {
       padding-left: 50px; }
     .form-articles .form-div input:not([type=checkbox]):not([type=radio]) {
       margin-left: 50px;
-      width: 300px;
+      width: 78%;
       height: 30px; }
     .form-articles .form-div .radio {
       padding-left: 70px; }
     .form-articles .form-div #text-area {
-      display: none; }
+      margin-left: 50px;
+      display: none;
+      width: 90%;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .form-articles .form-div #text-area h4 {
+        padding: 0; }
     .form-articles .form-div .form-title {
       background-color: #032240;
       color: white;
