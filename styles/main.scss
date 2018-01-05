@@ -688,18 +688,12 @@ color: white;
         padding:40px;
         width:50%;
         background-color:white;
-    
     }
+
     .history
     { 
         width:50%;
         background-color:white;
-        
-        img
-        {
-            width: 60%;
-
-        }
     }
 
 }
@@ -755,6 +749,7 @@ color: white;
     display:flex;
     flex-wrap:wrap;
     margin:10px;
+    left: 10px;
   
 
     .speaker

@@ -391,8 +391,6 @@ body {
 .about-conf .history {
   width: 50%;
   background-color: white; }
-  .about-conf .history img {
-    width: 60%; }
 
 .lastyear {
   background-color: #edeced; }
@@ -429,7 +427,8 @@ body {
 .speakers {
   display: flex;
   flex-wrap: wrap;
-  margin: 10px; }
+  margin: 10px;
+  left: 10px; }
   .speakers .speaker {
     width: 200px;
     background-color: white;
