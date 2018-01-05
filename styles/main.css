@@ -503,6 +503,7 @@ body {
   width: 100%;
   display: flex; }
   .form-articles .form-div {
+    min-width: 300px;
     margin: 0 auto;
     width: 40%;
     background-color: white;
@@ -522,7 +523,6 @@ body {
     .form-articles .form-div #text-area {
       margin-left: 50px;
       display: none;
-      width: 90%;
       margin-top: 20px;
       margin-bottom: 20px; }
       .form-articles .form-div #text-area h4 {

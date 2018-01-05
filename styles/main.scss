@@ -869,8 +869,10 @@ color: white;
 
 .form-articles
 {
+
     .form-div
     {
+        min-width:300px;
         h4
         {
             font-family:GothamBold;
@@ -900,7 +902,7 @@ color: white;
             }
             margin-left:50px;
             display:none;
-            width:90%;
+            
           margin-top:20px;
           margin-bottom:20px;
 
