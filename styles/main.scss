@@ -872,6 +872,21 @@ color: white;
 
     .form-div
     {
+            #submit
+        {
+            background-color:#032240;
+            width:150px;
+            height:40px; 
+            border-style: solid transparent;
+            margin-left:50px;
+            margin-top:20px;
+            color:white;
+            font-family:GothamBold;
+            font-size:15px;
+
+            margin-bottom:40px;
+        }
+
         min-width:300px;
         h4
         {

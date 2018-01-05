@@ -509,6 +509,17 @@ body {
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px; }
+    .form-articles .form-div #submit {
+      background-color: #032240;
+      width: 150px;
+      height: 40px;
+      border-style: solid transparent;
+      margin-left: 50px;
+      margin-top: 20px;
+      color: white;
+      font-family: GothamBold;
+      font-size: 15px;
+      margin-bottom: 40px; }
     .form-articles .form-div h4 {
       font-family: GothamBold;
       margin: 0;
