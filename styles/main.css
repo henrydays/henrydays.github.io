@@ -520,6 +520,9 @@ body {
       width: 300px;
       height: 30px;
       padding-left: 30px; }
+    .form-login .form-div a {
+      text-decoration: none;
+      color: #00a4ef; }
     .form-login .form-div #submit {
       background-color: #00a4ef;
       width: 150px;
@@ -529,7 +532,8 @@ body {
       margin-top: 40px;
       color: white;
       font-family: GothamBold;
-      font-size: 15px; }
+      font-size: 15px;
+      margin-bottom: 40px; }
     .form-login .form-div .form-title {
       font-family: NewFontThin;
       background-color: #00a4ef;
