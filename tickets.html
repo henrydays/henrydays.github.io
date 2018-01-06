@@ -112,9 +112,43 @@
   </div>
 
 </div>
+    <div class="slideshow">
+   
+        <div class="display-slide">
+  
+            <div class="slide">
+              <img class="slide-img" src="styles/imgs/home2.png" style="width:100%">
+             
+            </div>
+            
+            <div class="slide">
+              <img class="slide-img" src="styles/imgs/home1.jpg" style="width:100%">
+            
+            </div>
+            
+            <div class="slide">
+              <img class="slide-img" src="styles/imgs/home11.jpg" style="width:100%">
+              
+            </div>
+            
+            
+            
+        
+            
+            </div>
+    </div>
+    <div class="slider-tickets">
+      <button class="button left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="button right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
 <div class="infoTickets">
   <div class="contacts">
-      <div class="title">All you need to know...</div>
+      <div class="title">Contacts</div>
+     <p><i class="fa fa-phone" aria-hidden="true"></i> +333 9123 123123  </p> 
+    <p><i class="fa fa-phone" aria-hidden="true"></i> +333 9123 123123  </p> 
+    <p><i class="fa fa-mobile" aria-hidden="true"></i> +333 9123 123123  </p> 
+    <p><i class="fa fa-envelope" aria-hidden="true"></i> computing@gmail.com</p>
   </div>
   <div class="map">
 
@@ -204,5 +238,32 @@
         
          });
 
+   
+
+    
+    var slideIndex = 1;
+   
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+      
+    }
+    
+    function showDivs(n) {
+      var i;
+      var slides = document.getElementsByClassName("slide");
+      
+      if (n > slides.length) 
+       { slideIndex = 1}    
+      
+      if (n < 1) {
+          slideIndex = slides.length
+          }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slides[slideIndex-1].style.display = "block";  
+    }
    
     </script>
