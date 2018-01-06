@@ -125,7 +125,7 @@ color: white;
         padding-right: 20px;
         float: right;
 
-        @media only screen and (max-width: 1000px) 
+        @media only screen and (max-width: 1250px) 
         {
         
             display:none;
@@ -148,7 +148,7 @@ color: white;
      
         }
         display: inline-block;
-        padding: 10px 10px 10px 10px;
+        padding: 10px 5px;
         
         a
         {
@@ -224,7 +224,7 @@ color: white;
     {
       display:none;
 
-      @media screen and (max-width:1150px)
+      @media screen and (max-width:1250px)
       {
         display:block;
 
@@ -1081,14 +1081,28 @@ color: white;
 {
     display:flex;
     flex-wrap:wrap;
+   
     .usefull{
+
     display:flex;
-    wrap:wrap;
+    flex-wrap:wrap;
+
+    @media screen and(max-width:850px)
+    {
+
+         width:100%;
+        .dates , .process, .more
+        {
+            margin:0 auto;
+        }
     
+    }
     .dates
     {
-        padding:50px;
-        width:33%;
+        
+        min-width:150px;
+        padding:30px;
+        width:22%;
         font-size: 1000%;
         h4
         {
@@ -1098,8 +1112,9 @@ color: white;
    
     .process
     {
-        padding:50px;
-        width:33%;
+        min-width:150px;
+        padding:30px;
+        width:22%;
         font-size: 1000%;
         h4
         {
@@ -1108,8 +1123,9 @@ color: white;
     }
     .more
     {
-        padding:50px;
-        width:33%;  
+        min-width:150px;
+        padding:30px;
+        width:22%;  
         font-size: 1000%;
         h4
         {
@@ -1130,12 +1146,14 @@ color: white;
     }
     .example
     {
+        min-width:300px;
+        padding-bottom:30px;
        margin:auto auto;
-       width:22%     
+       width:15%     
     }
 
     width:100%;
-    height:500px;
+   
 }
 .slider-tickets
 {
