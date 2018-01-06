@@ -258,7 +258,7 @@ color: white;
     .subtitle
     {
         color: white;
-        text-shadow: 2px 2px 4px #000000;
+         text-shadow: 1px 1px 2px black, 0 0 45px black, 0 0 45px black;
         font-size: 2.7em;
         position: absolute;
         top:200px;
@@ -266,33 +266,6 @@ color: white;
         padding: 10px;
         width: 90%;
         text-align: center;
-
-    }
-
-    .teste1
-    {  
-        text-shadow: 1px 0px 0px #808080, 
-                 -1px 0px 0px #808080, 
-                 0px 1px 0px #808080, 
-                 0px -1px 0px #808080;
-
-    }
-
-    .teste2
-    {  
-        text-shadow: 1px 0px 0px #333399, 
-                 -1px 0px 0px #333399, 
-                 0px 1px 0px #333399, 
-                 0px -1px 0px #333399;
-
-    }
-
-    .teste3
-    {
-        text-shadow: 1px 0px 0px #990099, 
-                 -1px 0px 0px #990099, 
-                 0px 1px 0px #990099, 
-                 0px -1px 0px #990099;
 
     }
     
@@ -896,21 +869,69 @@ color: white;
 
 .form-articles
 {
+
     .form-div
     {
-        
+            #submit
+        {
+            background-color:#032240;
+            width:150px;
+            height:40px; 
+            border-style: solid transparent;
+            margin-left:50px;
+            margin-top:20px;
+            color:white;
+            font-family:GothamBold;
+            font-size:15px;
+
+            margin-bottom:40px;
+        }
+
+        min-width:300px;
+        h4
+        {
+            font-family:GothamBold;
+            margin:0;
+            padding-top: 20px;
+            padding-left:50px;
+
+        }
+        input:not([type=checkbox]):not([type=radio])
+        {
+            margin-left:50px;
+            width:78%;
+            height:30px;
+        }
+
+
+        .radio
+        {
+
+            padding-left:70px;
+        }
         #text-area
         {
+            h4
+            {
+               padding:0;
+            }
+            margin-left:50px;
             display:none;
+            
+          margin-top:20px;
+          margin-bottom:20px;
+
         }
         margin:0 auto;
-        width:50%;
+        width:40%;
         background-color:white;
         margin-top:50px;
         margin-bottom:50px;
 
         .form-title
-        {
+        {   
+            background-color: #032240;
+            color:white;
             padding:20px;
             font-family:GothamBold;
             font-size:20px;
@@ -929,7 +950,7 @@ color: white;
     background-color:#edeced;
     width:100%;
     display:flex;
-    border-bottom-right-radius: 15%;
+
 
 
     .form-div
@@ -986,4 +1007,106 @@ color: white;
 
         }
   }  
+}
+.page-header    {
+    position: static;
+    color: black;
+    font-size: 30px;
+    font-family: GothamBold;
+    font-size: 1em;
+    width: 100%;
+    height:150px;
+    background-color: #5372e8;
+    .subtitle
+    {
+        width:90%;
+        position:absolute;
+        top:130px;
+        h1
+        {
+
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 45px black, 0 0 45px black;
+
+            color:white;
+        text-align:center;
+        }
+        
+    }
+       img
+       {
+         resize: both;
+        background-size: contain;
+        width: 100%;
+         height:150px;
+        object-fit: cover;
+
+       }
+}
+
+.info
+{
+    h1{
+        margin:0px;
+        padding:40px;
+
+
+    }
+    width:100%;
+    height:500px;
+}
+
+.ticketPrices
+{
+    display:flex;
+    margin-left:20px;
+    margin-right: 20px;
+
+    .ticket
+    {
+        .desc
+        {
+            h3
+            {
+                font-family:GothamBold
+            }
+            padding-left:20px;
+
+        }
+        .title
+        {
+            background-color:#90a53c;
+          font-family:GothamBold;
+            text-align:center;
+            padding:15px;
+            color:white;
+            font-size:20;
+
+        }
+        button
+        {
+            background-color:#90a53c;
+            height:50px;
+            width:100px;
+            color:white;
+            font-family:GothamBold;
+            font-size:15px;
+            border-radius:50px;
+            margin-left:30%;
+        }
+        margin:20px;
+        width:33.333%;
+        background-color:#edeced;
+      
+
+    }
+    .ticket:nth-child(1), .ticket:nth-child(3)
+        {
+            margin-top:60px;
+        }
+
+    .ticket:nth-child(2){
+        height:390px;        
+    }
+
 }
