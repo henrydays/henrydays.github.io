@@ -692,7 +692,8 @@ body {
         font-family: GothamBold; }
     .ticketPrices .ticket ul {
       list-style-type: none;
-      padding: 0; }
+      padding: 0;
+      padding-left: 15px; }
     .ticketPrices .ticket .title {
       background-color: #90a53c;
       font-family: GothamBold;
