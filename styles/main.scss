@@ -651,26 +651,42 @@ color: white;
     }
     .info
     {   
-        padding:40px;
+        @media only screen and (max-width:890px)
+        {
+            width:100%;
+
+        }
+        
+        padding:30px;
         width:50%;
         background-color:white;
     
     }
     .history
     { 
+        @media only screen and (max-width:890px)
+        {
+            width:100%;
+            
+        }
+
         width:40%;
         background-color:white;
+        margin:0 auto;
         
+
         img
         {
-            padding-top: 55px;
-            width: 100%;
+
+            padding:20
+            width:90%;
         }
         
     }
         
     background-color:white;
     display:flex;
+    flex-wrap:wrap;
 
     
 
@@ -734,7 +750,7 @@ color: white;
     {   
         @media only screen and (max-width:645px)
         {
-            width:100%;
+            width:100%; 
         }
         width:200px;
         background-color:white;
