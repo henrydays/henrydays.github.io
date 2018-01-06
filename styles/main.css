@@ -396,8 +396,7 @@ body {
     padding-top: 100px; }
     @media only screen and (max-width: 890px) {
       .about-conf .history {
-        width: 100%;
-        margin-top: 10px; } }
+        width: 100%; } }
     .about-conf .history img {
       width: 90%; }
       @media only screen and (max-width: 890px) {
@@ -632,11 +631,19 @@ body {
     object-fit: cover; }
 
 .info {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: 500px; }
-  .info h1 {
+  .info .usefull {
+    width: 50%;
     margin: 0px;
     padding: 40px; }
+    .info .usefull h1 {
+      margin: 0; }
+  .info .example {
+    margin: auto auto;
+    width: 22%; }
 
 .ticketPrices {
   display: flex;
