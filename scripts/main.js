@@ -7,6 +7,7 @@
 
 	console.log(expanded);
 
+	
     function moveSlider()
     {
 

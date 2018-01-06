@@ -1,170 +1,140 @@
 <html>
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogIn_CC2018</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
- 
-
-</head>
-
-
-  
-<body>
-
-     
-   
-<div class="boxed-layout">
-<div class="nav-bar">
-   <div class="logo"><a href="index.html">Computing Conference</a></div>
-
- <div class="nav-responsive">
-       
-        <div id="nav-toggle" onclick="toggleBurger(this)" href="#!">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-        
-      </div>
-
-    <ul class="menu">
-
-<li><a href="conference.html"><i class="fa fa-users" aria-hidden="true"></i> Conference </a></li>
-<li><a href="program.html"> <i class="fa fa-book" aria-hidden="true"></i> Program </li></a>
-<li><a href="articles.html"><i class="fa fa-th" aria-hidden="true"></i> Articles </a></li>
-<li><a href="tickets.html"><i class="fa fa-ticket" aria-hidden="true"></i> Book Tickets </a></li>
-<div class="dropdown">
-<i class="fa fa-address-book-o" aria-hidden="true"></i> Join Conference <i class="fa fa-caret-down"></i></a>
-<div class="dropdown-content">
-      <li><a href="signin.html"><i class="fa fa-user-circle" aria-hidden="true"></i>Log In</a><li>
-      <li><a href="signup.html"><i class="fa fa-book" aria-hidden="true"></i>Register</a></li>
-    </div>
-</div> 
-</ul>
-
-</div>
-
-<div class="wrapper">
-<div class="getTicketsTop"><h3>10-12 July 2018 London, United Kingdom  <a href="tickets.html">Tickets!</a></h3></div> </div>
-     <div class="page-header">
-              <img  src="styles/imgs/login.jpg" style="width:100%;">
-              <div class="subtitle ">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>LogIn_CC2018</title>
+      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script
+         src="https://code.jquery.com/jquery-3.2.1.js"
+         integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+         crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="boxed-layout">
+         <div class="nav-bar">
+            <div class="logo"><a href="index.html">Computing Conference</a></div>
+            <div class="nav-responsive">
+               <div id="nav-toggle" onclick="toggleBurger(this)" href="#!">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+               </div>
+            </div>
+            <ul class="menu">
+               <li><a href="conference.html"><i class="fa fa-users" aria-hidden="true"></i> Conference </a></li>
+               <li><a href="program.html"> <i class="fa fa-book" aria-hidden="true"></i> Program </li>
+               </a>
+               <li><a href="articles.html"><i class="fa fa-th" aria-hidden="true"></i> Articles </a></li>
+               <li><a href="tickets.html"><i class="fa fa-ticket" aria-hidden="true"></i> Book Tickets </a></li>
+               <div class="dropdown">
+                  <i class="fa fa-address-book-o" aria-hidden="true"></i> Join Conference <i class="fa fa-caret-down"></i></a>
+                  <div class="dropdown-content">
+                     <li><a href="signin.html"><i class="fa fa-user-circle" aria-hidden="true"></i>Log In</a>
+                     <li>
+                     <li><a href="signup.html"><i class="fa fa-book" aria-hidden="true"></i>Register</a></li>
+                  </div>
+               </div>
+            </ul>
+         </div>
+         <div class="wrapper">
+            <div class="getTicketsTop">
+               <h3>10-12 July 2018 London, United Kingdom  <a href="tickets.html">Tickets!</a></h3>
+            </div>
+         </div>
+         <div class="page-header">
+            <img  src="styles/imgs/login.jpg" style="width:100%;">
+            <div class="subtitle ">
                <h1>Member Area</h1>
-              </div>
-              </div>
-<div class="form-login">
-  <div class="form-div">
-
-    <div class="form-title">Login</div>
-
-
-<form name="sub">
-
-  <div class="pre-input">Name</div>
-  <input id="name" type="text" name="user"><br>
-
-  <div class="pre-input">Password</div>
-  <input id="password" type="password" name="password"><br>
-
-
-
-</form>
- 
-  <button id="submit">Login</button> or <a href="signup.html">Register.</a>
-
+            </div>
+         </div>
+         <div class="form-login">
+            <div class="form-div">
+               <div class="form-title">Login</div>
+               <form name="sub">
+                  <div class="pre-input">Name</div>
+                  <input id="name" type="text" name="user"><br>
+                  <div class="pre-input">Password</div>
+                  <input id="password" type="password" name="password"><br>
+               </form>
+               <button id="submit">Login</button> or <a href="signup.html">Register.</a>
+            </div>
+         </div>
+         <div class="contentSponsors">
+            <div class="sponsor"><img src="styles/imgs/sponsors/BCS.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/CW.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/DEEP-ER.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/Deutsche_Telekom.png" ></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/ieee.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/iet_logo.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/microsoft.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/usenix.png" alt=""></div>
+         </div>
+         <div class="footer">
+            <div class="about">
+               <div class="logo">Computing Conference 2018</div>
+               <div class="rights">
+                  <p>© 2017  All rights reserved</p>
+               </div>
+            </div>
+            <div class="sitemap">
+               <div class="title"> Site Map </div>
+               <ul>
+                  <li><a href="index.html">Home Page</a></li>
+                  <li><a href="conference.html">Conference</a></li>
+                  <li><a href="schedule.html">Schedule</a></li>
+                  <li><a href="articles.html">Articles</a></li>
+                  <li><a href="signup.html">Sign Up</a></li>
+                  <li><a href="signin.html">Sign In</a> </li>
+               </ul>
+            </div>
+            <div class="social">
+               <div class="title">Social</div>
+               <a href="http://facebook.com">
+                  <div class="social-icon fa fa-facebook"> </div>
+               </a>
+               <a href="http://twitter.com">
+                  <div class="social-icon fa fa-twitter"> </div>
+               </a>
+               <a href="http://youtube.com">
+                  <div class="social-icon fa fa-youtube"> </div>
+               </a>
+               <a href="http://instagram.com">
+                  <div class="social-icon fa fa-instagram"> </div>
+               </a>
+               <div class="follow-us">Follow us on social networks</div>
+            </div>
+         </div>
       </div>
-  </div>
-
-<div class="contentSponsors">
-    <div class="sponsor"><img src="styles/imgs/sponsors/BCS.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/CW.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/DEEP-ER.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/Deutsche_Telekom.png" ></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/ieee.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/iet_logo.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/microsoft.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/usenix.png" alt=""></div>
-
-
-
-</div>
-
-
-<div class="footer">
-   <div class="about">
-    <div class="logo">Computing Conference 2018</div>
-
-    <div class="rights"><p>© 2017  All rights reserved</p></div>
- 
-
-
-</div>
-   <div class="sitemap">
-       <div class="title"> Site Map </div>
-       <ul>
-           <li><a href="index.html">Home Page</a></li>
-           <li><a href="conference.html">Conference</a></li>
-           <li><a href="schedule.html">Schedule</a></li>
-           <li><a href="articles.html">Articles</a></li>
-           <li><a href="signup.html">Sign Up</a></li>
-           <li><a href="signin.html">Sign In</a> </li>
-     
-       </ul>
-
-   </div>
-   <div class="social">
-   <div class="title">Social</div>
-   <a href="http://facebook.com"><div class="social-icon fa fa-facebook"> </div></a>   
-   <a href="http://twitter.com"><div class="social-icon fa fa-twitter"> </div></a>   
-   <a href="http://youtube.com"><div class="social-icon fa fa-youtube"> </div></a>   
-   <a href="http://instagram.com"><div class="social-icon fa fa-instagram"> </div></a>   
-   <div class="follow-us">Follow us on social networks</div>
-</div>
-</div>
-</div>
-
-
-
-</div>
-
- 
-</body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
-<script>
-
-  var username="tweb";
-  var password="pass123"
-
-    $(document).ready(function() {
-
-            $("#submit").click(function(){
-
-              
-              if($('#name').val()==username && $('#password').val()==password)
-              {        
-               $(".form-title").css({"background-color":"green"});
+      </div>
+   </body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+   <script>
+      var username="tweb";
+      var password="pass123"
+      
+        $(document).ready(function() {
+      
+                $("#submit").click(function(){
+      
+                  
+                  if($('#name').val()==username && $('#password').val()==password)
+                  {        
+                   $(".form-title").css({"background-color":"green"});
+                
+                  window.location.href = "sucess.html";
+                  } 
+                  else
+                  {
+                   $(".form-title").css({"background-color":"red"});
+                  }
+      
+                });
             
-              window.location.href = "sucess.html";
-              } 
-              else
-              {
-               $(".form-title").css({"background-color":"red"});
-              }
-
-            });
+             });
+      
+       
         
-         });
-
-   
-    </script>
+   </script>
 </html>
-
