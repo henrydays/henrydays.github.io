@@ -1070,15 +1070,56 @@ color: white;
 
        }
 }
+.allyouneed
+{
+    margin:0;
+    padding:50px;  
+    padding-bottom:0;
+}
 
 .info
 {
     display:flex;
     flex-wrap:wrap;
     .usefull{
+    display:flex;
+    wrap:wrap;
+    
+    .dates
+    {
+        padding:50px;
+        width:33%;
+        font-size: 1000%;
+        h4
+        {
+            font-size:20px;
+        }
+    }
+   
+    .process
+    {
+        padding:50px;
+        width:33%;
+        font-size: 1000%;
+        h4
+        {
+            font-size:20px;
+        }
+    }
+    .more
+    {
+        padding:50px;
+        width:33%;  
+        font-size: 1000%;
+        h4
+        {
+            font-size:20px;
+        }
+    }
 
     h1
     {
+        width:100%;
         margin:0;
     }
         width:50%;
