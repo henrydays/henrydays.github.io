@@ -90,8 +90,6 @@ color: white;
     }
 }
 
-
-
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
@@ -122,11 +120,6 @@ color: white;
         cursor: pointer;
     }
 
-     @media only screen and (max-width: 800px) 
-        {
-
-        } 
-
     .menu
     {   
         padding-right: 20px;
@@ -144,7 +137,7 @@ color: white;
                 
             }
         }
-
+        
     }
     
 
@@ -658,26 +651,46 @@ color: white;
     }
     .info
     {   
-        padding:40px;
+        @media only screen and (max-width:890px)
+        {
+            width:100%;
+
+        }
+        
+        padding:30px;
         width:50%;
         background-color:white;
     
     }
     .history
     { 
+        @media only screen and (max-width:890px)
+        {
+            width:100%;
+            
+        }
+
         width:40%;
         background-color:white;
-        
+        margin:0 auto;
+        padding-top:100px;
+
         img
         {
-            padding-top: 55px;
-            width: 100%;
+            @media only screen and (max-width:890px)
+            {
+                padding: 10px;
+            }
+
+         
+            width:90%;
         }
         
     }
         
     background-color:white;
     display:flex;
+    flex-wrap:wrap;
 
     
 
@@ -738,17 +751,20 @@ color: white;
   
 
     .speaker
-    {
+    {   
+        @media only screen and (max-width:645px)
+        {
+            width:100%; 
+        }
         width:200px;
         background-color:white;
         padding:20px;
         margin:20px;
-        &:hover
+        img:hover
         {
 
     transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
--webkit-box-shadow: 0 0 10px black;
-        box-shadow: 0 0 10px black;
+
         }
     }
     .name
@@ -775,22 +791,33 @@ color: white;
 .schedule
 {
     display:flex;
+    flex-wrap:wrap;
     background-color:red;
     width:100%;
     background-color:#edeced;
-    
-    
+    @media only screen and(max-width:890px)
+    {
+        .calendar
+        {
+            min-width:100%;
+        }
+        .talks
+        {
+            min-width:100%;
+        }
+    }
     .calendar
     {
-        background-color:#edeced;
+        
         margin:20px;    
         width:40%;
+
         display: block;
 
         .normal_calendar
         {
             font-size: 10em;
-            padding: 50px;
+            padding: 40px;
             padding-top: 30px;
             text-align: center;
 
@@ -798,7 +825,7 @@ color: white;
         .check_calendar
         {
             font-size: 10em;
-            padding: 50px;
+            padding: 40px;
             padding-top: 20px;
             text-align: center;
             
@@ -806,21 +833,21 @@ color: white;
     }
     .talks
     {   
-        width:60%;
+        
+        width:53%;
         display:flex;
         flex-wrap:wrap;
+        
 
         .talk
         {   
             margin:20px;
             width:100%;
             background-color:white;
-
             border-left: 2px solid black;
-
             padding:30px;
-            
             display:flex;
+
             &:hover
             {
                border-left: 5px solid #5372e8; 
@@ -1061,9 +1088,19 @@ color: white;
     display:flex;
     margin-left:20px;
     margin-right: 20px;
+ 
+    flex-wrap:wrap;
 
     .ticket
-    {
+    {  
+        @media only screen and(max-width:800px)
+        {
+          margin-left :auto;
+          margin-right:auto;
+        } 
+
+         min-width:300px;
+         max-width:29.5%;
         .desc
         {
             h3
@@ -1081,7 +1118,13 @@ color: white;
             padding:15px;
             color:white;
             font-size:20;
-
+        p
+        {
+            color:black;
+            font-family:NewFontThin;
+            font-size:18px;
+            margin-bottom:0;
+        }
         }
         button
         {
@@ -1090,9 +1133,12 @@ color: white;
             width:100px;
             color:white;
             font-family:GothamBold;
-            font-size:15px;
-            border-radius:50px;
+            font-size:20px;
+            
+            margin-top:10px;
             margin-left:30%;
+            border-color:transparent;
+
         }
         margin:20px;
         width:33.333%;
