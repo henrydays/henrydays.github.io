@@ -1124,6 +1124,11 @@ color: white;
             padding-left:20px;
 
         }
+        ul
+        {
+            list-style-type: none;
+            padding: 0;
+        }
         .title
         {
             background-color:#90a53c;
@@ -1134,7 +1139,7 @@ color: white;
             font-size:20;
         .bestdeal{
             font-family:NewFontThin;
-            color: #800000;
+            color: black;
             font-size:15;
         }
         p
