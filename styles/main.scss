@@ -87,11 +87,10 @@ color: white;
 
     &:hover{
         color: #3939ac;
-        text-shadow: 1px 0px 0px white, 
-                 -1px 0px 0px white, 
-                 0px 1px 0px white, 
-                 0px -1px 0px white;
-        font-size: 20px;
+        text-shadow: 1px 0px 0px #ebebe0, 
+                 -1px 0px 0px #ebebe0, 
+                 0px 1px 0px #ebebe0, 
+                 0px -1px 0px #ebebe0;
 
     }
 }
