@@ -671,6 +671,24 @@ body {
     margin: auto auto;
     width: 22%; }
 
+.infoTickets {
+  display: flex;
+  wrap: wrap;
+  width: 100%; }
+  .infoTickets .contacts {
+    width: 50%;
+    background-color: #e8e8e8; }
+    .infoTickets .contacts .title {
+      font-family: GothamBold;
+      padding: 30px;
+      font-size: 25px;
+      color: #90a53c; }
+  .infoTickets .map {
+    width: 50%; }
+    .infoTickets .map iframe {
+      height: 300px;
+      width: 100%; }
+
 .ticketPrices {
   display: flex;
   margin-left: 20px;

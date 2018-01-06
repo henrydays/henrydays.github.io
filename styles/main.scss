@@ -1138,6 +1138,35 @@ color: white;
     height:500px;
 }
 
+.infoTickets
+{
+    display:flex;
+    wrap:wrap;
+    width:100%;
+
+    .contacts
+    {   
+        .title
+        {
+            font-family:GothamBold;
+            padding: 30px;
+            font-size:25px;
+            color:#90a53c;
+        }
+        width:50%;
+        background-color:#e8e8e8;
+    }
+    .map
+    {width:50%;
+        iframe
+        {
+           height:300px;
+          width:100%;
+        }
+
+    }
+    
+}
 .ticketPrices
 {
     display:flex;
