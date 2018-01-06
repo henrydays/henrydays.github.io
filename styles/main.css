@@ -672,7 +672,7 @@ body {
     width: 22%; }
 
 .slider-tickets {
-  background-color: #e8e8e8; }
+  margin-top: -50px; }
   .slider-tickets button {
     height: 40px;
     width: 40px;
