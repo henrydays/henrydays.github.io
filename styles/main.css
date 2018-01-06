@@ -630,16 +630,42 @@ body {
     height: 150px;
     object-fit: cover; }
 
+.allyouneed {
+  margin: 0;
+  padding: 50px;
+  padding-bottom: 0; }
+
 .info {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   height: 500px; }
   .info .usefull {
+    display: flex;
+    wrap: wrap;
     width: 50%;
     margin: 0px;
     padding: 40px; }
+    .info .usefull .dates {
+      padding: 50px;
+      width: 33%;
+      font-size: 1000%; }
+      .info .usefull .dates h4 {
+        font-size: 20px; }
+    .info .usefull .process {
+      padding: 50px;
+      width: 33%;
+      font-size: 1000%; }
+      .info .usefull .process h4 {
+        font-size: 20px; }
+    .info .usefull .more {
+      padding: 50px;
+      width: 33%;
+      font-size: 1000%; }
+      .info .usefull .more h4 {
+        font-size: 20px; }
     .info .usefull h1 {
+      width: 100%;
       margin: 0; }
   .info .example {
     margin: auto auto;
