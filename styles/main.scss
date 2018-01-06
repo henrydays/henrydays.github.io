@@ -667,7 +667,7 @@ color: white;
         @media only screen and (max-width:890px)
         {
             width:100%;
-    
+
         }
 
         width:40%;
@@ -1073,12 +1073,26 @@ color: white;
 
 .info
 {
-    h1{
+    display:flex;
+    flex-wrap:wrap;
+    .usefull{
+
+    h1
+    {
+        margin:0;
+    }
+        width:50%;
         margin:0px;
         padding:40px;
 
 
     }
+    .example
+    {
+       margin:auto auto;
+       width:22%     
+    }
+
     width:100%;
     height:500px;
 }
