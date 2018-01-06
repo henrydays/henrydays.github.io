@@ -645,9 +645,10 @@ body {
       width: 100px;
       color: white;
       font-family: GothamBold;
-      font-size: 15px;
-      border-radius: 50px;
-      margin-left: 30%; }
+      font-size: 20px;
+      margin-top: 10px;
+      margin-left: 30%;
+      border-color: transparent; }
   .ticketPrices .ticket:nth-child(1), .ticketPrices .ticket:nth-child(3) {
     margin-top: 60px; }
   .ticketPrices .ticket:nth-child(2) {
