@@ -33,7 +33,7 @@
 		 		})
 
 		 		expanded=true;
-		 		return;
+		 		
 
 			}
 
@@ -65,7 +65,7 @@
 		 		);
 		 
 		 		$(".subtitle").animate({
-		 		"top":"150"
+		 		"top":"130"
 
 		 		})
 		 		expanded=false;

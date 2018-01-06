@@ -173,40 +173,10 @@
 
 </div>
 
- 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+
 </body>
 
 </html>
 
-<script>
-    
-  
-// to remove from global namespace
-(function() {
-    
-    // onclick vs. onchange
-    var contact = document.forms['sub'].elements['contact'];
-
-    for (var i=0, len=contact.length; i<len; i++) {
-        contact[i].onclick = function() {
-           if(this.value=="other")
-           {
-           document.getElementById("text-area").style.display = "block";
-          }
-          else{
-            document.getElementById("text-area").style.display = "none";
-          }
-
-          
-        };   
-    }
-    // disable submission of all forms on this page
-    for (var i=0, len=document.forms.length; i<len; i++) {
-        document.forms[i].onsubmit = function() { return false; };
-    }    
-    
-
-}());
-
-   
-    </script>

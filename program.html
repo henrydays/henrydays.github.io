@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+
 </head>
 
 
@@ -220,33 +219,8 @@
  
 </body>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+
 </html>
 
-<script>
-    
-    var slideIndex = 1;
-   
-    showDivs(slideIndex);
-    
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-      
-    }
-    
-    function showDivs(n) {
-      var i;
-      var slides = document.getElementsByClassName("slide");
-      
-      if (n > slides.length) 
-       { slideIndex = 1}    
-      
-      if (n < 1) {
-          slideIndex = slides.length
-          }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slides[slideIndex-1].style.display = "block";  
-    }
-   
-    </script>
