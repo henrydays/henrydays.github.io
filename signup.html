@@ -76,7 +76,7 @@
 
 </form>
  
-  <button id="submit">Login</button> or <a href="signup.html">Register.</a>
+  <button id="submit">Register</button> or <a href="signin.html">Login.</a>
 
       </div>
   </div>
@@ -148,17 +148,9 @@
             $("#submit").click(function(){
 
               
-              if($('#name').val()==username && $('#password').val()==password)
-              {        
-               $(".form-title").css({"background-color":"green"});
+              alert("The user '"+$('#name').val() + "' has been added to void! \nNow you will be redirect to the login page...");
             
-              window.location.href = "sucess.html";
-              } 
-              else
-              {
-               $(".form-title").css({"background-color":"red"});
-              }
-
+               window.location.href = "signin.html";
             });
         
          });
