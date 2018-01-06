@@ -1,235 +1,188 @@
 <html>
-
-<head>
-
-    <title>Computing Conference 2018</title>
-<link rel="stylesheet" href="styles/main.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-</head>
-<body>
-    
-   
-<div class="boxed-layout">
-<div class="nav-bar">
-    <div class="logo"><a href="index.html">Computing Conference</a></div>
-
- <div class="nav-responsive">
-       
-        <div id="nav-toggle" onclick="toggleBurger(this)" href="#!">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-        
-      </div>
-
-    <ul class="menu">
-
-<li><a href="conference.html"><i class="fa fa-users" aria-hidden="true"></i> Conference </a></li>
-<li><a href="program.html"> <i class="fa fa-book" aria-hidden="true"></i> Program </li></a>
-<li><a href="articles.html"><i class="fa fa-th" aria-hidden="true"></i> Articles </a></li>
-<li><a href="tickets.html"><i class="fa fa-ticket" aria-hidden="true"></i> Book Tickets </a></li>
-<div class="dropdown">
-<i class="fa fa-address-book-o" aria-hidden="true"></i> Join Conference <i class="fa fa-caret-down"></i></a>
-<div class="dropdown-content">
-      <li><a href="signin.html"><i class="fa fa-user-circle" aria-hidden="true"></i>Log In</a><li>
-      <li><a href="signup.html"><i class="fa fa-book" aria-hidden="true"></i>Register</a></li>
-    </div>
-</div> 
-</ul>
-
-</div>
-
-<div class="wrapper">
-<div class="getTicketsTop"><h3>10-12 July 2018 London, United Kingdom  <a href="tickets.html">Tickets!</a></h3></div> </div>
-    <div class="slideshow">
-   
-        <div class="display-slide">
-  
-            <div class="slide">
-              <img class="slide-img" src="styles/imgs/home11.jpg" style="width:100%">
-              <div class="subtitle teste1">
-                'Brilliant Ideas'
-              </div>
+   <head>
+      <title>Computing Conference 2018</title>
+      <link rel="stylesheet" href="styles/main.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="scripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <div class="boxed-layout">
+         <div class="nav-bar">
+            <div class="logo"><a href="index.html">Computing Conference</a></div>
+            <div class="nav-responsive">
+               <div id="nav-toggle" onclick="toggleBurger(this)" href="#!">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+               </div>
             </div>
-            
-            <div class="slide">
-              <img class="slide-img" src="styles/imgs/home1.jpg" style="width:100%">
-              <div class="subtitle teste2">
-                'Focussed Networking'
-              </div>
+            <ul class="menu">
+               <li><a href="conference.html"><i class="fa fa-users" aria-hidden="true"></i> Conference </a></li>
+               <li><a href="program.html"> <i class="fa fa-book" aria-hidden="true"></i> Program </li>
+               </a>
+               <li><a href="articles.html"><i class="fa fa-th" aria-hidden="true"></i> Articles </a></li>
+               <li><a href="tickets.html"><i class="fa fa-ticket" aria-hidden="true"></i> Book Tickets </a></li>
+               <div class="dropdown">
+                  <i class="fa fa-address-book-o" aria-hidden="true"></i> Join Conference <i class="fa fa-caret-down"></i></a>
+                  <div class="dropdown-content">
+                     <li><a href="signin.html"><i class="fa fa-user-circle" aria-hidden="true"></i>Log In</a>
+                     <li>
+                     <li><a href="signup.html"><i class="fa fa-book" aria-hidden="true"></i>Register</a></li>
+                  </div>
+               </div>
+            </ul>
+         </div>
+         <div class="wrapper">
+            <div class="getTicketsTop">
+               <h3>10-12 July 2018 London, United Kingdom  <a href="tickets.html">Tickets!</a></h3>
             </div>
-            
-            <div class="slide">
-              <img class="slide-img" src="styles/imgs/home2.png" style="width:100%">
-              <div class="subtitle teste3" >
-                'Unique and Expert Speakers'
-              </div>
+         </div>
+         <div class="slideshow">
+            <div class="display-slide">
+               <div class="slide">
+                  <img class="slide-img" src="styles/imgs/home11.jpg" style="width:100%">
+                  <div class="subtitle teste1">
+                     'Brilliant Ideas'
+                  </div>
+               </div>
+               <div class="slide">
+                  <img class="slide-img" src="styles/imgs/home1.jpg" style="width:100%">
+                  <div class="subtitle teste2">
+                     'Focussed Networking'
+                  </div>
+               </div>
+               <div class="slide">
+                  <img class="slide-img" src="styles/imgs/home2.png" style="width:100%">
+                  <div class="subtitle teste3" >
+                     'Unique and Expert Speakers'
+                  </div>
+               </div>
+               <button class="button left" onclick="plusDivs(-1)">&#10094;</button>
+               <button class="button right" onclick="plusDivs(1)">&#10095;</button>
             </div>
-            
-            
-            
-            <button class="button left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="button right" onclick="plusDivs(1)">&#10095;</button>
-            
+         </div>
+         <div class="aboutUs">
+            <h1>About us</h1>
+            <div class="smalltext">
+               <p>
+                  Computing Conference (formerly called Science and Information (SAI) Conference) is a research conference held in London, UK since 2013. The conference series has featured keynote talks, special sessions, poster presentation, tutorials, workshops, and contributed papers each year.
+               </p>
             </div>
-    </div>
-
-    <div class="aboutUs">
-
-           <h1>About us</h1>
-          
-           
-            <div class="smalltext"> 
-                <p>
-                    Computing Conference (formerly called Science and Information (SAI) Conference) is a research conference held in London, UK since 2013. The conference series has featured keynote talks, special sessions, poster presentation, tutorials, workshops, and contributed papers each year.
-                </p>
-            </div>   
             <div class="video-about"><iframe width="560" height="315" src="https://www.youtube.com/embed/1uL-vp7Z3Ok" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div>
-      
-    </div>
-    
-    <div class="content">
-
-        <div class="tabs-content">
-            <div class="event">
-                
-                <div class="icon-container"><i class="fa fa-star-o" aria-hidden="true"></i></div>
-                <div class="event-title">Brilliant Ideas.
-                    </div>
-                <div class="event-description">High-impact, collaborative and new approaches to some of the world’s toughest problems.</div>
-
+         </div>
+         <div class="content">
+            <div class="tabs-content">
+               <div class="event">
+                  <div class="icon-container"><i class="fa fa-star-o" aria-hidden="true"></i></div>
+                  <div class="event-title">Brilliant Ideas.
+                  </div>
+                  <div class="event-description">High-impact, collaborative and new approaches to some of the world’s toughest problems.</div>
+               </div>
+               <div class="event">
+                  <div class="icon-container"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
+                  <div class="event-title">Focussed Networking</div>
+                  <div class="event-description">Provides a free and open atmosphere where attendees talk and engage in creative ways</div>
+               </div>
+               <div class="event">
+                  <div class="icon-container"><i class="fa fa-microphone" aria-hidden="true"></i></div>
+                  <div class="event-title">Unique and Expert Speakers</div>
+                  <div class="event-description">Our speakers represent the cream of computer science research and development practitioners worldwide.</div>
+               </div>
+               <div class="event">
+                  <div class="icon-container"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+                  <div class="event-title">International Audience</div>
+                  <div class="event-description">Previous conferences witnessed attendees from 55+ countries.</div>
+               </div>
             </div>
-            <div class="event">
-                    
-                    <div class="icon-container"><i class="fa fa-bell-o" aria-hidden="true"></i></div>
-                    <div class="event-title">Focussed Networking</div>
-                    <div class="event-description">Provides a free and open atmosphere where attendees talk and engage in creative ways</div>
-    
-                </div>
-                <div class="event">
-                        
-                        <div class="icon-container"><i class="fa fa-microphone" aria-hidden="true"></i></div>
-                        <div class="event-title">Unique and Expert Speakers</div>
-                        <div class="event-description">Our speakers represent the cream of computer science research and development practitioners worldwide.</div>
-        
-                    </div>
-            <div class="event">
-                    
-                    <div class="icon-container"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
-                    <div class="event-title">International Audience</div>
-                    <div class="event-description">Previous conferences witnessed attendees from 55+ countries.</div>
-    
-                </div>
-             
-                    
-        </div>
-        <div class="iphone">
-            <img src="styles/imgs/iphone.png" alt="">
-        </div>
-
-    </div>
-   
-    <div class="horizontal-fullwidth">
-   <div class="textbox">
-     Do you want a sit?          
-    </div> 
- 
-    <div class="button-horizontal"></div><a href="tickets.html"> <button id="buttonPrimary">Book Tickets!</button></a>
-  
-</div>
-<div class="map">
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.712201067294!2d-8.412339349379579!3d40.193217877026086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f991a7f9a38f%3A0xa3d15c051a2604c4!2sR.+Pedro+Nunes%2C+Coimbra!5e0!3m2!1spt-PT!2spt!4v1514933800387" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-</div>
-<div class="contentSponsors">
-    <div class="sponsor"><img src="styles/imgs/sponsors/BCS.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/CW.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/DEEP-ER.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/Deutsche_Telekom.png" ></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/ieee.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/iet_logo.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/microsoft.png" alt=""></div>
-    <div class="sponsor"><img src="styles/imgs/sponsors/usenix.png" alt=""></div>
-
-
-
-</div>
-
-
-<div class="footer">
-   <div class="about">
-    <div class="logo">Computing Conference 2018</div>
-
-    <div class="rights"><p>© 2017  All rights reserved</p></div>
- 
-
-
-</div>
-   <div class="sitemap">
-       <div class="title"> Site Map </div>
-       <ul>
-           <li><a href="index.html">Home Page</a></li>
-           <li><a href="conference.html">Conference</a></li>
-           <li><a href="schedule.html">Schedule</a></li>
-           <li><a href="articles.html">Articles</a></li>
-           <li><a href="signup.html">Sign Up</a></li>
-           <li><a href="signin.html">Sign In</a> </li>
-     
-       </ul>
-
-   </div>
-   <div class="social">
-   <div class="title">Social</div>
-   <a href="http://facebook.com"><div class="social-icon fa fa-facebook"> </div></a>   
-   <a href="http://twitter.com"><div class="social-icon fa fa-twitter"> </div></a>   
-   <a href="http://youtube.com"><div class="social-icon fa fa-youtube"> </div></a>   
-   <a href="http://instagram.com"><div class="social-icon fa fa-instagram"> </div></a>   
-   <div class="follow-us">Follow us on social networks</div>
-</div>
-</div>
-</div>
-
-
-
-</div>
-
- 
-</body>
-
+            <div class="iphone">
+               <img src="styles/imgs/iphone.png" alt="">
+            </div>
+         </div>
+         <div class="horizontal-fullwidth">
+            <div class="textbox">
+               Do you want a sit?          
+            </div>
+            <div class="button-horizontal"></div>
+            <a href="tickets.html"> <button id="buttonPrimary">Book Tickets!</button></a>
+         </div>
+         <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.712201067294!2d-8.412339349379579!3d40.193217877026086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f991a7f9a38f%3A0xa3d15c051a2604c4!2sR.+Pedro+Nunes%2C+Coimbra!5e0!3m2!1spt-PT!2spt!4v1514933800387" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+         <div class="contentSponsors">
+            <div class="sponsor"><img src="styles/imgs/sponsors/BCS.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/CW.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/DEEP-ER.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/Deutsche_Telekom.png" ></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/ieee.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/iet_logo.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/microsoft.png" alt=""></div>
+            <div class="sponsor"><img src="styles/imgs/sponsors/usenix.png" alt=""></div>
+         </div>
+         <div class="footer">
+            <div class="about">
+               <div class="logo">Computing Conference 2018</div>
+               <div class="rights">
+                  <p>© 2017  All rights reserved</p>
+               </div>
+            </div>
+            <div class="sitemap">
+               <div class="title"> Site Map </div>
+               <ul>
+                  <li><a href="index.html">Home Page</a></li>
+                  <li><a href="conference.html">Conference</a></li>
+                  <li><a href="schedule.html">Schedule</a></li>
+                  <li><a href="articles.html">Articles</a></li>
+                  <li><a href="signup.html">Sign Up</a></li>
+                  <li><a href="signin.html">Sign In</a> </li>
+               </ul>
+            </div>
+            <div class="social">
+               <div class="title">Social</div>
+               <a href="http://facebook.com">
+                  <div class="social-icon fa fa-facebook"> </div>
+               </a>
+               <a href="http://twitter.com">
+                  <div class="social-icon fa fa-twitter"> </div>
+               </a>
+               <a href="http://youtube.com">
+                  <div class="social-icon fa fa-youtube"> </div>
+               </a>
+               <a href="http://instagram.com">
+                  <div class="social-icon fa fa-instagram"> </div>
+               </a>
+               <div class="follow-us">Follow us on social networks</div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </body>
 </html>
-
 <script>
-    
-    var slideIndex = 1;
+   var slideIndex = 1;
    
-    showDivs(slideIndex);
-    
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-      
-    }
-    
-    function showDivs(n) {
-      var i;
-      var slides = document.getElementsByClassName("slide");
-      
-      if (n > slides.length) 
-       { slideIndex = 1}    
-      
-      if (n < 1) {
-          slideIndex = slides.length
-          }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-      }
-      slides[slideIndex-1].style.display = "block";  
-    }
+   showDivs(slideIndex);
    
-    </script>
+   function plusDivs(n) {
+     showDivs(slideIndex += n);
+     
+   }
+   
+   function showDivs(n) {
+     var i;
+     var slides = document.getElementsByClassName("slide");
+     
+     if (n > slides.length) 
+      { slideIndex = 1}    
+     
+     if (n < 1) {
+         slideIndex = slides.length
+         }
+     for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+     }
+     slides[slideIndex-1].style.display = "block";  
+   }
+   
+</script>
