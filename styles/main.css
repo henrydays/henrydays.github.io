@@ -104,8 +104,7 @@ body {
       color: white;
       font-family: 'NewFontThin'; }
       .nav-bar li a:hover {
-        font-weight: bolder;
-        color: #3939ac; }
+        font-family: GothamBold; }
   .nav-bar .dropdown {
     position: relative;
     display: inline-block;
