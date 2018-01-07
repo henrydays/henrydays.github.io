@@ -19,6 +19,11 @@
 
 $hoverColor:#5372e8;
 
+a
+{
+    text-decoration:none;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -167,11 +172,7 @@ body
             {
                 font-weight: bolder;
                 color: #3939ac;
-                text-shadow: 
-                    1px 0px 0px black, 
-                   -1px 0px 0px black, 
-                    0px 1px 0px black, 
-                    0px -1px 0px black;
+
             }  
 
         }   
@@ -1182,11 +1183,15 @@ body
 .infoTickets
 {
     display:flex;
-    wrap:wrap;
+    flex-wrap:wrap;
     width:100%;
 
     .contacts
     {   
+        @media only screen and(max-width:840px)
+        {
+           min-width:100%;
+        }
         .title
         {
             font-family:GothamBold;
@@ -1204,6 +1209,10 @@ body
     }
     .map
     {
+        @media only screen and(max-width:840px)
+        {
+           min-width:100%;
+        }
         width:70%;
         iframe
         {
@@ -1298,3 +1307,4 @@ body
     }
 
 }
+

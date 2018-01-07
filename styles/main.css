@@ -7,6 +7,9 @@
 @font-face {
   font-family: 'GothamMedium';
   src: url("fonts/GOTHAM-MEDIUM.TTF"); }
+a {
+  text-decoration: none; }
+
 html, body {
   margin: 0;
   padding: 0; }
@@ -102,8 +105,7 @@ body {
       font-family: 'NewFontThin'; }
       .nav-bar li a:hover {
         font-weight: bolder;
-        color: #3939ac;
-        text-shadow: 1px 0px 0px black,  -1px 0px 0px black,  0px 1px 0px black,  0px -1px 0px black; }
+        color: #3939ac; }
   .nav-bar .dropdown {
     position: relative;
     display: inline-block;
@@ -695,11 +697,14 @@ body {
 
 .infoTickets {
   display: flex;
-  wrap: wrap;
+  flex-wrap: wrap;
   width: 100%; }
   .infoTickets .contacts {
     width: 30%;
     background-color: #e8e8e8; }
+    @media only screen and (max-width: 840px) {
+      .infoTickets .contacts {
+        min-width: 100%; } }
     .infoTickets .contacts .title {
       font-family: GothamBold;
       padding: 30px;
@@ -709,6 +714,9 @@ body {
       padding-left: 40px; }
   .infoTickets .map {
     width: 70%; }
+    @media only screen and (max-width: 840px) {
+      .infoTickets .map {
+        min-width: 100%; } }
     .infoTickets .map iframe {
       height: 300px;
       width: 100%; }
