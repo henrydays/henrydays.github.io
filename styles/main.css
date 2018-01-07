@@ -107,8 +107,9 @@ body {
         font-family: GothamBold; }
   .nav-bar .dropdown {
     position: relative;
-    display: inline-block;
-    font-family: 'NewFontThin'; }
+    display: inline-block; }
+    .nav-bar .dropdown :hover {
+      font-family: GothamBold; }
   .nav-bar .dropdown-content {
     display: none;
     position: absolute;
