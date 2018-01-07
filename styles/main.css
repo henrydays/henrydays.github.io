@@ -127,7 +127,8 @@ body {
       text-decoration: none;
       display: block; }
   .nav-bar .dropdown-content a:hover {
-    color: #3939ac; }
+    color: black;
+    text-decoration: bold; }
   .nav-bar .dropdown:hover .dropdown-content {
     display: block; }
   .nav-bar .nav-responsive {
