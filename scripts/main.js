@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 
     var expanded = false;
+    
     $("#nav-toggle").click(moveSlider);
 
     console.log(expanded);
@@ -10,6 +11,7 @@ $(document).ready(function() {
     function moveSlider() {
 
         if (!expanded) {
+            
             $(".nav-bar .logo").css({
                 "width": "100%"
             });
@@ -19,11 +21,11 @@ $(document).ready(function() {
 
             if ($('#page-header') != null) {
 
-                $(".page-header").animate({
+                $(".page-header").css({
                     "padding-top": "270px"
                 });
 
-                $(".subtitle").animate({
+                $(".subtitle").css({
                     "top": "350"
 
                 })
