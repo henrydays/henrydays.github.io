@@ -2,7 +2,6 @@ $(document).ready(function() {
 
 
     var expanded = false;
-    
     $("#nav-toggle").click(moveSlider);
 
     console.log(expanded);
@@ -11,7 +10,6 @@ $(document).ready(function() {
     function moveSlider() {
 
         if (!expanded) {
-            
             $(".nav-bar .logo").css({
                 "width": "100%"
             });
@@ -21,18 +19,16 @@ $(document).ready(function() {
 
             if ($('#page-header') != null) {
 
-                $(".page-header").css({
+                $(".page-header").animate({
                     "padding-top": "270px"
                 });
 
-                $(".subtitle").css({
+                $(".subtitle").animate({
                     "top": "350"
 
                 })
-
+                
                 expanded = true;
-
-
             }
 
             $(".slideshow").animate({
@@ -92,28 +88,9 @@ $(document).ready(function() {
     }
 
 
-(function() {
-            var contact = document.forms['sub'].elements['contact'];
-        
-            for (var i=0, len=contact.length; i<len; i++) {
-                contact[i].onclick = function() {
-                   if(this.value=="other")
-                   {
-                   document.getElementById("text-area").style.display = "block";
-                  }
-                  else{
-                    document.getElementById("text-area").style.display = "none";
-                  }
-        
-                  
-                };   
-            }
-            
-            for (var i=0, len=document.forms.length; i<len; i++) {
-                document.forms[i].onsubmit = function() { return false; };
-            }   
 
 
+});
 
 function toggleBurger(x) {
     x.classList.toggle("change");
